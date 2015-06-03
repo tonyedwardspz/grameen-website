@@ -7,6 +7,7 @@
     <!-- The above 3 meta tags must come first in the head -->
 
     <title>Bootstrap 101 Template</title>
+    <meta name="description" content="<?php echo $metaTag; ?>">
 
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,19 +21,3 @@
   </head>
 
   <body>
-
-    <h1>Hello, world!</h1>
-
-
-
-
-
-
-
-
-    <!-- Scripts -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
-</html>
