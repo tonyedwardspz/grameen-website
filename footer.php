@@ -1,4 +1,4 @@
-			<p>&copy; Purely Web Design 2015  THIS NEEDS TO BE ALIGNED</p>
+			<p>&copy; Purely Web Design 2015</p>
     </div> <!-- /container -->
 	
     <!-- Scripts -->

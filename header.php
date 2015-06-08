@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags must come first in the head -->
 
     <title>Grameen Tandoori Restaurant</title>
-<!-- MJC TODO - Put in meta tags here (intentionally indented leftwise to stand out as a TO DO - realign/ remove when done-->
+<!-- MJC TODO - Put in meta tags here (intentionally indented leftwise to stand out as a TO DO - realign/ remove when done -->
     <meta name="description" content="<?php echo $metaTag; ?>">  
     <meta name="author" content="PurelyWebDesign">
 
