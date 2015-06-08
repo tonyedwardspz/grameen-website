@@ -1,5 +1,6 @@
 <?php
 $metaTag = 'This is an example of a meta description. This will often show up in search results.';
+$title = 'Bootstrap 101'
 
 include 'header.php';
 ?>

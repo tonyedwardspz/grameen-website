@@ -1,12 +1,16 @@
+<?php 
+  include 'functions.php';
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Restaurant">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags must come first in the head -->
 
-    <title>Bootstrap 101 Template</title>
+    <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $metaTag; ?>">
 
     <!-- Stylesheets -->
