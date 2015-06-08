@@ -1,5 +1,6 @@
-
-	<p>&copy; Purely Web Design 2015  THIS NEEDS TO BE ALIGNED</p>
+			<p>&copy; Purely Web Design 2015  THIS NEEDS TO BE ALIGNED</p>
+    </div> <!-- /container -->
+	
     <!-- Scripts -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

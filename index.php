@@ -34,7 +34,6 @@ include 'header.php';
       </div>
 
       <hr>
-    </div> <!-- /container -->
 
 <?php
 include 'footer.php';
