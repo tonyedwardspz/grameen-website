@@ -1,4 +1,5 @@
-			<p>&copy; Purely Web Design 2015</p>
+			<p>&copy; Purely Web Design 2015 </p>
+
     </div> <!-- /container -->
 	
     <!-- Scripts -->
