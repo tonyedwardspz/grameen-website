@@ -4,48 +4,18 @@ $title = 'Bootstrap 101';
 
 include 'header.php';
 ?>
-  <!-- MJC Sidebar page Template -->
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <!--MJC Sidebar -->
- 
-    <div class="sidebar-nav-fixed pull-right ">
-        <div class="well">
-            <ul class="nav ">
-                <li class="nav-header">Sidebar</li>
-                <li class="active"><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-                <li><a href="#">Link</a>
-                </li>
-            </ul>
-        </div>
-        <!--/.well -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to Grameen Tandoori Restaurant</h1>
+          <img class="jumboImage" src="images/food4homepage.jpg" height="266" width="400">
+          <p>The Grameen Tandoori restaurant is situated on Hayle Terrace overlooking Hayle estuary. The unassuming exterior opens up into a wonderful and contemporary Indian dining experience.</p>
+          <p>The restaurant offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway. 
+             All food is prepared by our highly experienced team using only the freshest ingredients and the best spices.</p>
+          <p>"The best, and most reliable, Indian restaurant in the town. A modern interior and discrete lighting make a pleasant atmosphere." - www.gourmetbritain.com</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
+      </div>
     </div>
-    <!--/sidebar-nav-fixed -->
-
-    <!--/span-->
 
     <div class="container">
       <div class="row">
@@ -73,9 +43,6 @@ include 'header.php';
         </div>
 
       </div>
-
-      <hr>
-      <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
 
 <?php
 include 'footer.php';
