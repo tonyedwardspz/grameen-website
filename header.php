@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags must come first in the head -->
+    
     <!-- MJC Jun 2015. Header for Homepage -->
     <title>Grameen Tandoori Restaurant, Hayle, Cornwall</title>
 <!-- MJC TODO - Put in meta tags here (intentionally indented leftwise to stand out as a TO DO - realign/ remove when done -->
