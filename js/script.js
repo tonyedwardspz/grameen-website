@@ -6,6 +6,9 @@ $(document).ready(function(){
 	console.log("Ready");
 
 	welcome(welcomeMessage);
+
+	//MJC actrivate fancybox
+	$('.fancybox').fancybox();
 });
 
 
@@ -20,12 +23,5 @@ var welcome = function(msg){
 	console.log(msg);
 }
 
-// MJC Activate fancyBox
-$(".fancybox")
-	.attr('rel', 'gallery')
-	.fancybox({
-	    padding : 0
-	});
 
-// Launch fancyBox on first element
-//$(".fancybox").eq(0).trigger('click');
+
