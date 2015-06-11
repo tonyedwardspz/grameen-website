@@ -19,3 +19,13 @@ $(window).resize(function(){
 var welcome = function(msg){
 	console.log(msg);
 }
+
+// MJC Activate fancyBox
+$(".fancybox")
+	.attr('rel', 'gallery')
+	.fancybox({
+	    padding : 0
+	});
+
+// Launch fancyBox on first element
+//$(".fancybox").eq(0).trigger('click');
