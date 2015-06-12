@@ -1,5 +1,5 @@
  
-      <hr width=100>
+      <hr size=0; width=100>
       <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
 
 			<p>&copy; Purely Web Design 2015 </p>
