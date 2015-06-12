@@ -1,8 +1,18 @@
  
-      <hr>
-      <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
+      <hr>       
+      <div class="col-sm-8">
+        <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
+      </div>
 
-			<p>&copy; Purely Web Design 2015 </p>
+      <!--MJC 2 columns (half page) in a row-->
+      <div class="row">
+        <div class="col-sm-6">
+			   <p>&copy; Purely Web Design  <?php echo date('Y'); ?> </p> 
+        </div>
+        <div class="col-sm-6">
+          <a href="index.php">Home</a>&nbsp;&nbsp;<a href="restaurant.php">Restaurant</a>&nbsp;&nbsp;<a href="takeaway.php">Takeaway</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;<a href="attractions.php">Local Attractions</a>
+        </div>
+      </div>    <!-- end of row-->
 
     </div> <!-- /container -->
 	

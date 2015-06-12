@@ -37,7 +37,7 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li class="active">
-              <a href="page.php">Home</a>  <!-- MJC TODO this will change when we add the sub pages to the home page -->
+              <a href="index.php">Home</a>  
             </li>
             <li>
               <a href="restaurant.php">Restaurant</a>
