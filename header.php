@@ -39,27 +39,18 @@
             <li class="active">
               <a href="#">Home</a>
             </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Menus
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#sitdownmenu">Sitdown Menu</a>
-                </li>
-                <li>
-                  <a href="#takeawaymenu">Takeaway Menu</a>
-                </li>               
-              </ul>            
             <li>
-              <a href="#attractions">Local Attractions</a>
+              <a href="#restaurant">Restaurant</a>
+            </li>
+            <li>
+              <a href="#takeaway">Takeaway</a>  
             </li>
             <li>
               <a href="#contact">Contact</a>
-            </li>
+            </li> 
             <li>
-              <a href="#about">About</a>  
-            </li>
+              <a href="#attractions">Local Attractions</a>
+            </li>        
           </ul>   
 
         </div>
