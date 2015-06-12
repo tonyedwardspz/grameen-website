@@ -9,7 +9,7 @@ include 'header.php';
 
       <!-- PAGE TITLE -->
       <div class="blog-header">
-        <h1 class="blog-title">Page Title</h1>
+        <h1 class="blog-title">Restaurant Page</h1>
       </div>
 
       <div class="row">
@@ -28,12 +28,12 @@ include 'header.php';
       <?php
       include 'sidebar.php';
       ?>
-
+      
       <?php
       include 'fancy_images.php';
       ?>
 
-     </div>
+    </div>
       
 <?php
 include 'footer.php';
