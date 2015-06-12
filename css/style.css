@@ -51,11 +51,12 @@
   margin-bottom: 0;
 }
 
-/* MJC
- * spacer
-*/
-.spacer {
-    margin-top: 40px; 
+/* set line props */
+.hr{
+ display:block;
+ clear:both;
+ width: 100%;
+ margin-top: 10px;
 }
 
 

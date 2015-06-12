@@ -49,7 +49,7 @@ include 'header.php';
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->
-      </div>
+ 
 
       <!-- FANCYBOX Images -->
       <div class="col-sm-3">
@@ -63,9 +63,8 @@ include 'header.php';
       </div>
       <div class="col-sm-3">
           <a class="fancybox" rel="group" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="pretty pic4" /></a>
-        
       </div>
-
+    </div>
       
 <?php
 include 'footer.php';
