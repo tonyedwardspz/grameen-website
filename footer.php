@@ -1,9 +1,5 @@
-			
-      <hr>
-      <br/><br/>
-      <br/><br/>
-      <br/><br/>
-      <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
+ 
+      <p><br><br><br><br>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
 
 			<p>&copy; Purely Web Design 2015 </p>
 

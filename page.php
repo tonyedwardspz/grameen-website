@@ -5,7 +5,6 @@ $title = 'Grameen Tandoori';
 include 'header.php';
 ?>
 
-
     <div class="container">
 
       <!-- PAGE TITLE -->
@@ -22,7 +21,6 @@ include 'header.php';
         <hr>
         <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
       </div><!-- /.blog-post -->
-
 
 
       </div><!-- /.blog-main -->
@@ -65,7 +63,9 @@ include 'header.php';
       </div>
       <div class="col-sm-3">
           <a class="fancybox" rel="group" href="images/4_b.jpg"><img src="images/4_s.jpg" alt="pretty pic4" /></a>
+        
       </div>
+
       
 <?php
 include 'footer.php';
