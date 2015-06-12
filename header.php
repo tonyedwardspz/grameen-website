@@ -43,13 +43,13 @@
               <a href="restaurant.php">Restaurant</a>
             </li>
             <li>
-              <a href="#takeaway">Takeaway</a>  
+              <a href="takeaway.php">Takeaway</a>  
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="contact.php">Contact</a>
             </li> 
             <li>
-              <a href="#attractions">Local Attractions</a>
+              <a href="attractions.php">Local Attractions</a>
             </li>        
           </ul>   
 
