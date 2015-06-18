@@ -1,6 +1,6 @@
 
       <!-- FANCYBOX Images -->
-      <div class ="row" >
+      <div class="row" >
         <div class="col-sm-6 col-md-3">
           <div class ="fancyborder">
             <a class="fancybox" rel="group" href="images/1_b.jpg"><img src="images/1_s.jpg" alt="pretty pic" /></a>

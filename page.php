@@ -25,16 +25,8 @@ include 'header.php';
 
       </div><!-- /.blog-main -->
 
-      <?php
-      include 'sidebar.php';
-      ?>
-
-      <?php
-      include 'fancy_images.php';
-      ?>
-
-     </div>
-      
 <?php
+include 'sidebar.php';
+include 'fancy_images.php';
 include 'footer.php';
 ?>

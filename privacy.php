@@ -93,12 +93,8 @@ include 'header.php';
 
       </div><!-- /.blog-main -->
 
-      <?php
-      include 'sidebar.php';
-      ?>
-
-     </div>
-      
 <?php
+include 'sidebar.php';
+include 'fancy_images.php';
 include 'footer.php';
 ?>

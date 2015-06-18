@@ -1,4 +1,4 @@
- 
+        </div> 
       <hr>  
       <div class="row">     
         <div class="col-sm-8">
@@ -26,12 +26,8 @@
     <!-- Scripts -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
     <script src="js/script.js"></script>
-
-    <!-- MJC FANCYBOX here due to needing jQuery to work -->
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="js/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-    <script type="text/javascript" src="js/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
   </body>
 </html>
