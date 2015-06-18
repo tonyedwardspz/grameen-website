@@ -13,7 +13,8 @@
         <div class="col-sm-6">
           <!-- MJC Note: &#8226; is a bullet point -->
           <div class ="ar">
-             <a href="index.php">Home</a>&nbsp;&nbsp;<a href="restaurant.php">Restaurant</a>&nbsp;&#8226;&nbsp;<a href="takeaway.php">Takeaway</a>&nbsp&#8226;&nbsp;<a href="contact.php">Contact</a>&nbsp;&#8226;&nbsp;<a href="attractions.php">Local Attractions</a>
+             <a href="index.php">Home</a>&nbsp;&nbsp;<a href="restaurant.php">Restaurant</a>&nbsp;&#8226;&nbsp;<a href="takeaway.php">Takeaway</a>&nbsp&#8226;&nbsp;
+                <a href="contact.php">Contact</a>&nbsp;&#8226;&nbsp;<a href="attractions.php">Local Attractions</a>&nbsp&#8226;&nbsp;<a href="privacy.php">Privacy Policy</a>
           </div>
 
         </div>
