@@ -74,10 +74,13 @@
 } 
 
 /* fancy box image border */
-
 .fancyborder {
   border: 2px solid #333; 
 }
 
-
+/* image set up */
+img {
+   max-width: 100%;
+   height: auto;
+}
 
