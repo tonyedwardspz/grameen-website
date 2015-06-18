@@ -67,3 +67,8 @@
 .blog-post {
   margin-bottom: 60px;
 }
+
+/* Align footer text to the right */
+.ar {
+  text-align: right;
+} 

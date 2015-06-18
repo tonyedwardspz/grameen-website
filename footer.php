@@ -1,16 +1,21 @@
  
-      <hr>       
-      <div class="col-sm-8">
-        <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
+      <hr>  
+      <div class="row">     
+        <div class="col-sm-8">
+          <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
+        </div>
       </div>
-
       <!--MJC 2 columns (half page) in a row-->
       <div class="row">
         <div class="col-sm-6">
 			   <p>&copy; Purely Web Design  <?php echo date('Y'); ?> </p> 
         </div>
         <div class="col-sm-6">
-          <a href="index.php">Home</a>&nbsp;&nbsp;<a href="restaurant.php">Restaurant</a>&nbsp;&nbsp;<a href="takeaway.php">Takeaway</a>&nbsp;&nbsp;<a href="contact.php">Contact</a>&nbsp;&nbsp;<a href="attractions.php">Local Attractions</a>
+          <!-- MJC Note: &#8226; is a bullet point -->
+          <div class ="ar">
+             <a href="index.php">Home</a>&nbsp;&nbsp;<a href="restaurant.php">Restaurant</a>&nbsp;&#8226;&nbsp;<a href="takeaway.php">Takeaway</a>&nbsp&#8226;&nbsp;<a href="contact.php">Contact</a>&nbsp;&#8226;&nbsp;<a href="attractions.php">Local Attractions</a>
+          </div>
+
         </div>
       </div>    <!-- end of row-->
 
