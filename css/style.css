@@ -59,7 +59,6 @@
  margin-top: 10px;
 }
 
-
 /*
  * Blog posts
  */
@@ -69,6 +68,16 @@
 }
 
 /* Align footer text to the right */
-.ar {
+
+.alignright {
   text-align: right;
 } 
+
+/* fancy box image border */
+
+.fancyborder {
+  border: 2px solid #333; 
+}
+
+
+
