@@ -1,6 +1,9 @@
 <?php
-$metaTag = 'This is an example of a meta description. This will often show up in search results.';
-$title = 'Grameen Tandoori';
+// Metatag variables variables
+$pageTitle = 'Grameen Tandoori';
+$pageDescription = 'This is an example of a meta description. This will often show up in search results. Max 200 Charachters';
+$pageImageSrc = '';
+$pageURL = '';
 
 include './includes/header.php';
 ?>
