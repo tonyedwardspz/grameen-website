@@ -21,8 +21,9 @@ include './includes/header.php';
             <hr>
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>    
           </div><!-- /.blog-post -->
-
-          <div class="row">
+   
+          <div class="dlmargin">
+            <div class="row">
               <!-- put in images for downloads -->
               <div class="col-sm-6">
                 <a href="images/restaurantmenu/grameen-restaurant-menu-dl-pdf.pdf"><img src="images/download-pdf-small.jpg" border="0"></a>
@@ -30,8 +31,9 @@ include './includes/header.php';
               <div class="col-sm-6">
                 <a href="images/restaurantmenu/grameen-restaurant-menu-dl-jpg.jpg"><img src="images/grameen-restaurant-small.jpg" border="0"></a>
               </div>
+            </div>
           </div>
-
+          
           <!-- Menu 'thumbs' -->   
           <div class="col-sm-6">
             <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"><img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0"></a>

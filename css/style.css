@@ -84,6 +84,11 @@ hr{
   text-align: right;
 } 
 
+/* download image margin to separate images */
+.dlmargin {
+  margin-bottom:10px;
+}
+
 
 /* Fancy box stuff */
 
