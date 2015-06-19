@@ -41,4 +41,4 @@
           </div>
       
         </div><!-- /.blog-sidebar -->
-      </div>
+      </div><!-- End main content row -->

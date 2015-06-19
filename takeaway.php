@@ -2,7 +2,7 @@
 $metaTag = 'This is an example of a meta description. This will often show up in search results.';
 $title = 'Grameen Tandoori';
 
-include 'header.php';
+include './includes/header.php';
 ?>
 
     <div class="container">
@@ -26,7 +26,7 @@ include 'header.php';
         </div><!-- /.blog-main -->
 
 <?php
-include 'sidebar.php';
-include 'fancy_images.php';
-include 'footer.php';
+include './includes/sidebar.php';
+include './includes/fancy_images.php';
+include './includes/footer.php';
 ?>
