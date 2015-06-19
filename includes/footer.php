@@ -72,7 +72,7 @@
 
           <hr>
           <div class="col-sm-12 col-md-6">
-            <p>Copyright © Your Website | <a href="">Privacy Policy</a> | <a href="">Terms of Use</a></p>
+            <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | Developed by <a href="http://purelywebdesign.co.uk/">Purely Web Design</a> | <a href="privacy.php">Privacy Policy</a></p>
           </div>
 
           <div class="col-sm-12 col-md-6 alignright">
