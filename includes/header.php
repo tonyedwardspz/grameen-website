@@ -24,32 +24,34 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
+        
           <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Grameen Tandoori Restaurant</a>  
+
+          <a class="navbar-brand" href="index.php" title="Grameen Tandoori Hayle">Grameen Tandoori Restaurant</a>  
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
             <li class="active">
-              <a href="index.php">Home</a>  
+              <a href="index.php" title="Grameen Tandoori - Home Page">Home</a>  
             </li>
             <li>
-              <a href="restaurant.php">Restaurant</a>
+              <a href="restaurant.php" title="Grameen Restaurant Menu">Restaurant</a>
             </li>
             <li>
-              <a href="takeaway.php">Takeaway</a>  
+              <a href="takeaway.php" title="Grameen Takeaway Menu">Takeaway</a>  
             </li>
             <li>
-              <a href="contact.php">Contact</a>
+              <a href="contact.php" title="Order Takeaway and Book Table">Contact</a>
             </li> 
             <li>
-              <a href="attractions.php">Local Attractions</a>
+              <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
             </li>        
           </ul>   
 
