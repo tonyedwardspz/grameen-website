@@ -10,7 +10,7 @@
       <footer class="row">
 
         <div class="col-sm-6">
-			   <p>&copy; <a href="http://purelywebdesign.co.uk/">Purely Web Design  <?php echo date('Y'); ?> </p> 
+			   <p>&copy; <a href="http://purelywebdesign.co.uk/">Purely Web Design <?php echo date('Y'); ?></p> 
         </div>
 
         <div class="col-sm-6">
