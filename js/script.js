@@ -6,6 +6,9 @@ $(document).ready(function(){
 	console.log("Ready");
 
 	welcome(welcomeMessage);
+
+	//MJC actrivate fancybox
+	$('.fancybox').fancybox();
 });
 
 
@@ -19,3 +22,6 @@ $(window).resize(function(){
 var welcome = function(msg){
 	console.log(msg);
 }
+
+
+

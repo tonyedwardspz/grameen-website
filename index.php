@@ -1,6 +1,6 @@
 <?php
 $metaTag = 'This is an example of a meta description. This will often show up in search results.';
-$title = 'Bootstrap 101';
+$title = 'Grameen Tandoori';
 
 include 'header.php';
 ?>
@@ -43,9 +43,6 @@ include 'header.php';
         </div>
 
       </div>
-
-      <hr>
-      <p>All major cards accepted. <img src="images/credit_card_accepted.jpg" border="1px"></p>
 
 <?php
 include 'footer.php';

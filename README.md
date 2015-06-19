@@ -12,12 +12,11 @@ With the server running visit the projects URL.
 
 ## Contributing
 
-1. Fork it!
-2. Clone your version to your local server folder.
-3. Create your feature branch.
-4. Commit your changes.
-5. Push to the branch.
-6. Submit a pull/merge request :D
+1. Clone  to your local server folder.
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Submit a pull/merge request :D
 
 ## History
 
