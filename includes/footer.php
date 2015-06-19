@@ -31,7 +31,7 @@
     <!-- Scripts -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
 
   </body>
