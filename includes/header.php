@@ -9,7 +9,7 @@
 
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="js/jquery.fancybox.css" type="text/css" media="screen"/>
+    <link href="js/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
