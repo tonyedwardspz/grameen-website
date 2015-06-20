@@ -1,9 +1,11 @@
 <?php
+include './includes/functions.php';
+
 // Metatag variables variables
-$pageTitle = 'Grameen Tandoori';
-$pageDescription = 'This is an example of a meta description. This will often show up in search results. Max 200 Charachters';
-$pageImageSrc = '';
-$pageURL = '';
+$pageTitle = 'The Restaurant';
+$pageDescription = 'The Grameen Tandoori is a Contempary Indian Restaurant with fresh, quality food expertly prepared. View our full menu.';
+$pageImageSrc = 'http://placehold.it/280x150';
+$pagePath = basename(__FILE__);
 
 include './includes/header.php';
 ?>
@@ -12,7 +14,7 @@ include './includes/header.php';
 
       <!-- PAGE TITLE -->
       <div class="blog-header">
-        <h1 class="blog-title">Restaurant Page</h1>
+        <h1 class="blog-title"><?php echo $pageTitle; ?></h1>
       </div>
 
       <div class="row">
