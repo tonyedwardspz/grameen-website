@@ -13,7 +13,7 @@
 		<meta name="twitter:site" content="@publisher_handle">
 		<meta name="twitter:title" content="<?php echo $pageTitle; ?>">
 		<meta name="twitter:description" content="<?php echo $pageDescription; ?>">
-		<meta name="twitter:creator" content="@author_handle">
+		<meta name="twitter:creator" content="@tonyedwardspz">
 		<meta name="twitter:image:src" content="<?php echo $pageImageSrc; ?>">
 
 		<!-- Open Graph data -->
