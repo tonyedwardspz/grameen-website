@@ -3,7 +3,7 @@ include './includes/functions.php';
 
 // Metatag variables variables
 $pageTitle = 'Privacy Policy';
-$pageDescription = 'This is an example of a meta description. This will often show up in search results. Max 200 Charachters';
+$pageDescription = "Grameen Tandoori take your privacy seriously. Here's our privacy policy";
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
 

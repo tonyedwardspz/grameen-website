@@ -3,7 +3,7 @@ include './includes/functions.php';
 
 // Metatag variables variables
 $pageTitle = 'Takeaway';
-$pageDescription = 'This is an example of a meta description. This will often show up in search results. Max 200 Charachters';
+$pageDescription = 'The Grameen Tandoori Indian Takeaway in Hayle, Cornwall, View our full menu online and order by phone. Delivery available';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
 
