@@ -1,7 +1,6 @@
 
 /* Element classes */
 
-/* Make images responsive */
 img {
  max-width: 100%;
  height: auto;
@@ -15,8 +14,8 @@ hr{
 }
 
 
-/* Layout Stuff */
 
+/* Layout Stuff */
 
 .jumboImage{
 	border: 1px solid #333;
@@ -27,6 +26,14 @@ hr{
 .alignright {
   text-align: right;
 } 
+
+
+
+/* Header stuff */
+.navbar-brand{
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size:2em;
+}
 
 
 /* Page layout*/

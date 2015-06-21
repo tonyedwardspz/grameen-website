@@ -11,6 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="js/jquery.fancybox.css" rel="stylesheet" type="text/css" media="screen"/>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 9]>
