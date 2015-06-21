@@ -52,6 +52,16 @@ nav{
   border-bottom: 3px solid #4caf50;
 }
 
+.navbar-toggle .icon-bar {
+  background-color: #4caf50;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 768px) {
+  nav .container {
+    width: 100%
+  }
+}
 
 
 /* Page layout*/
