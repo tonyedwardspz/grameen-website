@@ -23,7 +23,7 @@
   <body>
       
     <!-- Fixed Header -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-back navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
         
@@ -60,5 +60,3 @@
         </div>
       </div>
     </nav>
-
-
