@@ -3,7 +3,7 @@ include './includes/functions.php';
 
 // Metatag variables
 $pageTitle = 'Local Attractions';
-$pageDescription = 'Attractions and beaty spots near to the Grameen Tandoori Restaurant.';
+$pageDescription = 'Attractions and beauty spots near the Grameen Tandoori Restaurant, Hayle.';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
 

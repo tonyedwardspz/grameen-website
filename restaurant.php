@@ -29,17 +29,25 @@ include './includes/header.php';
 
           <!-- Menu 'thumbs' -->   
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"><img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0"></a>
+            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
+              <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
+            </a>
           </div>
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"><img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0"></a>
+            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
+              <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
+            </a>
           </div>
             
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"><img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0"></a>
+            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
+              <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
+            </a>
           </div>
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"><img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0"></a>
+            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
+              <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
+            </a>
           </div>
    
         </div><!-- /.blog-main -->
