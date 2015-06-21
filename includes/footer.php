@@ -85,5 +85,20 @@
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
 
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Restaurant",
+      "name": "Grameen Tandoori",
+      "description": "Contemporary Indian Restaurant and takeaway in the heart of Hayle, Cornwall",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 12:00-14:00 and 17:30-23:00",
+      "telephone": "+441736758470",
+      "menu": "http://www.grameentandoori.co.uk/restaurant.php",
+      "acceptsReservations": "YES",
+      "servesCuisine": "Indian"
+    }
+    </script>
+
   </body>
 </html>
