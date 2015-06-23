@@ -29,7 +29,6 @@ include './includes/header.php';
 
           <div class="dlmargin">
             <div class="row">
-              <!-- put in images for downloads -->
               <div class="col-sm-6">
                 <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download PDF Menu" role="button">Download Menu PDF »</a>
               </div>
@@ -40,28 +39,29 @@ include './includes/header.php';
           </div>
 
           <!-- Menu 'thumbs' -->   
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Click to Expand Image" >
-              <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
-            </a>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
+              </a>
+            </div>
+              
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
+              </a>
+            </div>
           </div>
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
-              <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
-            </a>
-          </div>
-            
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
-              <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
-            </a>
-          </div>
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"  title="Click to Expand Image" >
-              <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
-            </a>
-          </div>
-   
         </div><!-- /.blog-main -->
 
 <?php
