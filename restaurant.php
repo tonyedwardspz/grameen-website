@@ -50,7 +50,8 @@ include './includes/header.php';
                 <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
               </a>
             </div>
-              
+          </div>
+          <div class="row">  
             <div class="col-sm-6">
               <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
                 <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">

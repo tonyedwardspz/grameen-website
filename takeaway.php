@@ -26,8 +26,42 @@ include './includes/header.php';
             <hr>
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
           </div><!-- /.blog-post -->
+          <div class="dlmargin">
+            <div class="row">
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/takeawaymenu/Grameen-takeaway-menu-dl.pdf" title="Download PDF Menu" role="button">Download Menu PDF »</a>
+              </div>
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/takeawaymenu/grameen-takeaway-menu-dl.jpg" title="Download Menu Image" role="button">Download Menu Image »</a>
+              </div>
+            </div>
+          </div>
 
-
+          <!-- Menu 'thumbs' -->   
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="images/takeawaymenu/takeaway-large-outside.jpg" title="Click to Expand Image" >
+                <img src="images/takeawaymenu/takeaway-thumb-1.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Click to Expand Image" >
+                <img src="images/takeawaymenu/takeaway-thumb-2.jpg" border="0">
+              </a>
+            </div>
+          </div>
+          <div class="row">              
+            <div class="col-sm-6">
+              <a href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Click to Expand Image" >
+                <img src="images/takeawaymenu/takeaway-thumb-3.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/takeawaymenu/takeaway-large-outside.jpg"  title="Click to Expand Image" >
+                <img src="images/takeawaymenu/takeaway-thumb-4.jpg" border="0">
+              </a>
+            </div>
+          </div>
         </div><!-- /.blog-main -->
 
 <?php
