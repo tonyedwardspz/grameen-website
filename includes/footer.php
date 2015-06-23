@@ -3,16 +3,15 @@
         <hr>
 
         <div class="col-sm-6 col-md-3">
-          <p clas="image-box">
-            <img src="http://placehold.it/500x330" alt="Image alt text">
-          </p>
+          <a class="fancybox" rel="group" href="images/photos/5.jpg">
+            <img src="images/photos/5-tn.jpg" Title="Click to Enlarge" />
+          </a>
         </div>
         <div class="col-sm-6 col-md-3">
-          <p clas="image-box">
-            <img src="http://placehold.it/500x330" alt="Image alt text">
-          </p>
+          <a class="fancybox" rel="group" href="images/photos/14.jpg">
+            <img src="images/photos/14-tn.jpg" Title="Click to Enlarge" />
+          </a>
         </div>
-
 
         <div class="col-sm-6 col-md-3">
           <h3>Pages</h3>
