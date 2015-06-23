@@ -22,6 +22,7 @@
             <h4>Elsewhere</h4>
             <ol class="list-unstyled">
               <li><a href="#">GitHub DO WE NEED THIS?</a></li>
+              <li><a href="#"><i class="fa fa-google-plus fa-3x"></i></a></li>
               <li><a href="#">Twitter</a></li>
               <li><a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"><img src="images/facebook_logo1.jpg" alt="Facebook" border="0"></a></li> 
               <li> <!-- MJC Trip Advisor Widget-->

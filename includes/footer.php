@@ -47,6 +47,18 @@
             <a href="" title="Contact me!"><i class="fa fa-envelope"></i> 01736 000000</a>
           </p>
 
+          <a href="" target="_blank" title="Facebook">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-facebook-official fa-2x"></i>
+            </span>
+          </a>
+
+          <a href="" target="_blank" title="Google Plus">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-google-plus fa-2x"></i>
+            </span>
+          </a>
+
           <a href="" target="_blank" title="Twitter">
             <span class="fa-stack fa-lg">
               <i class="fa fa-square-o fa-stack-2x"></i>
