@@ -47,13 +47,13 @@
             <a href="" title="Contact me!"><i class="fa fa-envelope"></i> 01736 000000</a>
           </p>
 
-          <a href="" target="_blank" title="Facebook">
+          <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-facebook-official fa-2x"></i>
+             <i class="fa fa-facebook-official fa-2x"></i>
             </span>
           </a>
 
-          <a href="" target="_blank" title="Google Plus">
+          <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
             <span class="fa-stack fa-lg">
               <i class="fa fa-google-plus fa-2x"></i>
             </span>
