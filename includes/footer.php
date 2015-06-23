@@ -1,17 +1,21 @@
 
       <footer class="row">
         <hr>
-
-        <div class="col-sm-6 col-md-3">
-          <a class="fancybox" rel="group" href="images/photos/5.jpg">
-            <img src="images/photos/5-tn.jpg" Title="Click to Enlarge" />
-          </a>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <a class="fancybox" rel="group" href="images/photos/14.jpg">
-            <img src="images/photos/14-tn.jpg" Title="Click to Enlarge" />
-          </a>
-        </div>
+        <!-- MJC create random number and use it to populate fancybox images -->
+        <?php 
+        for ($x = 0; $x <= 1; $x++) {
+        ?>
+          <?php
+            $random = rand(1,13);      
+          ?>
+          <div class="col-sm-6 col-md-3">
+            <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
+              <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" />
+            </a>
+          </div>
+        <?php
+        } 
+        ?><!-- end of footer fancy box -->
 
         <div class="col-sm-6 col-md-3">
           <h3>Pages</h3>
@@ -72,7 +76,6 @@
         <div class="col-sm-12 col-md-6">
           <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/">Purely Web Design</a> | <a href="privacy.php">Privacy Policy</a></p>
         </div>
-
 
         <div class="col-sm-12 col-md-6 alignright">
           <p>All major cards accepted. <img src="images/credit_card_accepted.jpg"></p>
