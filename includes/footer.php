@@ -59,13 +59,7 @@
             </span>
           </a>
 
-          <a href="" target="_blank" title="Twitter">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-          </a>
-          <a href="" target="_blank" title="Twitter">
+          <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter">
             <span class="fa-stack fa-lg">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-twitter fa-stack-1x"></i>
