@@ -7,8 +7,6 @@
             <img src="http://placehold.it/500x330" alt="Image alt text">
           </p>
         </div>
-
-
         <div class="col-sm-6 col-md-3">
           <p clas="image-box">
             <img src="http://placehold.it/500x330" alt="Image alt text">
@@ -84,7 +82,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
-
+    <!-- TripAdvisor-->
+    <script src="http://www.jscache.com/wejs?wtype=restaurantWidgetGreen&amp;uniq=764&amp;locationId=1996321&amp;icon=knifeAndFork&amp;lang=en_UK&amp;display_version=2"></script>
 
     <script type="application/ld+json">
     {

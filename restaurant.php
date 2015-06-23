@@ -31,33 +31,33 @@ include './includes/header.php';
             <div class="row">
               <!-- put in images for downloads -->
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" role="button">Download PDF »</a>
+                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download PDF Menu" role="button">Download Menu PDF »</a>
               </div>
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" role="button">Download Image »</a>
+                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Menu Image" role="button">Download Menu Image »</a>
               </div>
             </div>
           </div>
 
           <!-- Menu 'thumbs' -->   
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
+            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Click to Expand Image" >
               <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
             </a>
           </div>
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
+            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
               <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
             </a>
           </div>
             
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
+            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
               <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
             </a>
           </div>
           <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
+            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"  title="Click to Expand Image" >
               <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
             </a>
           </div>
