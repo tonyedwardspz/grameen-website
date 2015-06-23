@@ -27,6 +27,18 @@ include './includes/header.php';
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>    
           </div><!-- /.blog-post -->
 
+          <div class="dlmargin">
+            <div class="row">
+              <!-- put in images for downloads -->
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" role="button">Download PDF »</a>
+              </div>
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" role="button">Download Image »</a>
+              </div>
+            </div>
+          </div>
+
           <!-- Menu 'thumbs' -->   
           <div class="col-sm-6">
             <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
