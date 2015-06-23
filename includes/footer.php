@@ -44,7 +44,7 @@
           <h3>Contact:</h3>
           <p>Have a question or feedback? Contact me!</p>
           <p>
-            <a href="" title="Contact me!"><i class="fa fa-envelope"></i>  01736 758470</a>
+            <a href="" title="Contact me!"><i class="fa fa-phone-square"></i>  01736 758470</a>
           </p>
 
           <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
