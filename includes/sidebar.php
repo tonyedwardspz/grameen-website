@@ -12,17 +12,15 @@
           </div>
 
           <div class="sidebar-module">
-            <h4>Archives</h4>
+            <h4>Contact Us</h4>
             <ol class="list-unstyled">
-              <li><a href="#">March 2014</a></li>
-              <li><a href="#">February 2014</a></li>
-              <li><a href="#">January 2014</a></li>
-              <li><a href="#">December 2013</a></li>
+              <li>Tel: 01736 758470.</li>
+              <li><a href="#"><i class="fa fa-envelope"></i> Email: INSERT EMAIL HERE</a></li>
             </ol>
           </div>
 
           <div class="sidebar-module">
-            <h4>Elsewhere</h4>
+            <h4>Social Media Pages</h4>
             <ol class="list-unstyled">
               <li><a href="#">GitHub DO WE NEED THIS?</a></li>
               <li><a href="https://plus.google.com/100199113052646253342/about"><i class="fa fa-google-plus fa-3x"></i>Google Plus</a></li>
