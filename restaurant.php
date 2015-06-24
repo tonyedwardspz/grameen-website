@@ -6,6 +6,8 @@ $pageTitle = 'The Restaurant';
 $pageDescription = 'The Grameen Tandoori is a Contempary Indian Restaurant with fresh, quality food expertly prepared. View our full menu.';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'restaurant';
+
 
 include './includes/header.php';
 ?>

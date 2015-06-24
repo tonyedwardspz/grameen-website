@@ -6,6 +6,7 @@ $pageTitle = 'Indian Restaurant and Takeaway';
 $pageDescription = 'Grameen Tandoori - Indian Reastaurant and Takeaway in Hayle, Cornwall';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'home';
 
 include './includes/header.php';
 ?>

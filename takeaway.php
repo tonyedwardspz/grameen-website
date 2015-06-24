@@ -6,6 +6,8 @@ $pageTitle = 'Takeaway';
 $pageDescription = 'The Grameen Tandoori Indian Takeaway in Hayle, Cornwall, View our full menu online and order by phone. Delivery available';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'takeaway';
+
 
 include './includes/header.php';
 ?>

@@ -22,7 +22,6 @@
           <div class="sidebar-module">
             <h4>Social Media Pages</h4>
             <ol class="list-unstyled">
-              <li><a href="#">GitHub DO WE NEED THIS?</a></li>
               <li><a href="https://plus.google.com/100199113052646253342/about"><i class="fa fa-google-plus fa-3x"></i>Google Plus</a></li>
               <li><a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb"> <i class="fa fa-twitter fa-3x"></i>Twitter</a></li>
               <li><a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"><img src="images/facebook_logo2.jpg" alt="Facebook" border="0"></a></li> 
