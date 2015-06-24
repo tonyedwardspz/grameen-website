@@ -10,7 +10,7 @@
           ?>
           <div class="col-sm-6 col-md-3">
             <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
-              <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" />
+              <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
             </a>
           </div>
         <?php
