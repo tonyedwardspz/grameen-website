@@ -25,8 +25,7 @@
 
   </head>
 
-  <body id= <?php echo $pageName ?>>
-      
+  <body id="<?php echo $pageName ?>">      
     <!-- Fixed Header -->
     <nav class="navbar navbar-back navbar-fixed-top">
       <div class="container">
