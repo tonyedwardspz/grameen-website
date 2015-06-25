@@ -25,7 +25,7 @@
 
   </head>
 
-  <body id="<?php echo $pageName; ?>">      
+  <body class="<?php echo $pageName; ?>">      
     <!-- Fixed Header -->
     <nav class="navbar navbar-back navbar-fixed-top">
       <div class="container">
@@ -44,7 +44,7 @@
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="active">
+            <li class="<?php echo $pageName; ?>">
               <a href="index.php" title="Grameen Tandoori - Home Page">Home</a>  
             </li>
             <li>
@@ -60,7 +60,6 @@
               <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
             </li>        
           </ul>   
-
         </div>
       </div>
     </nav>
