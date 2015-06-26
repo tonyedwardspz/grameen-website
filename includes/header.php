@@ -44,19 +44,19 @@
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="<?php echo $pageName; ?>">
+            <li class="home">
               <a href="index.php" title="Grameen Tandoori - Home Page">Home</a>  
             </li>
-            <li>
+            <li class="restaurant">
               <a href="restaurant.php" title="Grameen Restaurant Menu">Restaurant</a>
             </li>
-            <li>
+            <li class="takeaway">
               <a href="takeaway.php" title="Grameen Takeaway Menu">Takeaway</a>  
             </li>
-            <li>
+            <li class="contact">
               <a href="contact.php" title="Order Takeaway and Book Table">Contact</a>
             </li> 
-            <li>
+            <li class="attractions">
               <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
             </li>        
           </ul>   
