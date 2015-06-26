@@ -137,3 +137,12 @@ nav{
 footer h3 {
   margin-top: 0;
 }
+
+footer li{
+  list-style: none;
+  text-indent: none;
+}
+
+footer ul {
+  padding-left: 0;
+}

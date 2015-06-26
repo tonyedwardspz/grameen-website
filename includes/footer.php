@@ -22,23 +22,23 @@
           <ul>
             <li>
               <a href="index.php" title="Grameen Tandoori Home Page">
-                <i class="fa fa-file"></i> Home</a>
+                Home</a>
             </li>
             <li>
               <a href="restaurant.php" title="Grameen Restaurant Menu">
-                <i class="fa fa-file"></i> Our Restaurant</a>
+                Our Restaurant</a>
             </li>
             <li>
               <a href="takeaway.php" title="Grameen Takeaway Menu">
-                <i class="fa fa-file"></i> Takeaways and Delivery</a>
+                Takeaways and Delivery</a>
             </li>
             <li>
               <a href="contact.php" title="Order Takeaway and Book Table">
-                <i class="fa fa-file"></i> Contact us</a>
+                 Contact us</a>
             </li>
             <li>
               <a href="attractions.php" title="Attractions in West Cornwall">
-                <i class="fa fa-file"></i> Local Attractions</a>
+                Local Attractions</a>
             </li>
           </ul>
         </div>
@@ -53,13 +53,16 @@
 
           <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
             <span class="fa-stack fa-lg">
-             <i class="fa fa-facebook-official fa-2x"></i>
+            <i class="fa fa-square-o fa-stack-2x"></i>
+             <i class="fa fa-facebook fa-stack-1x"></i>
             </span>
           </a>
 
           <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-google-plus fa-2x"></i>
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-google-plus fa-stack-1x"></i>
+
             </span>
           </a>
 
