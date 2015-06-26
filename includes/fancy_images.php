@@ -1,7 +1,6 @@
 
       <!-- FANCYBOX Images -->
-      <div class="fancymargin">
-        <div class="row fancy-container" >
+        <div class="row fancy-container fancymargin">
           <!-- MJC create random number and use it to populate fancybox images -->
           <?php 
           for ($x = 0; $x <= 3; $x++) {
@@ -15,5 +14,4 @@
           <?php
           } 
           ?><!-- end of footer fancy box -->
-      </div>
-     </div> <!-- Row -->
+        </div> <!-- Row -->

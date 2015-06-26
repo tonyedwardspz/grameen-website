@@ -62,7 +62,6 @@
             <span class="fa-stack fa-lg">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-google-plus fa-stack-1x"></i>
-
             </span>
           </a>
 

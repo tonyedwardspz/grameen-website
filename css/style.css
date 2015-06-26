@@ -120,12 +120,13 @@ nav{
 
 /* Fancy box stuff */
 .fancyborder {
-  border: 2px solid #333; 
+  border: 1px solid #ddd;
+  padding: 20px; 
 }
 
 /* fancy box container margin */
 .fancymargin {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 /* Footer Stuff */
