@@ -42,13 +42,20 @@ nav{
   padding-top: 3px;
 }
 
+
+
 .nav > li > a, .nav > li > a {
   border-bottom: 3px solid #fff;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover, 
+.nav > li > a:focus {
   text-decoration: none;
   background-color: #fff;
+  border-bottom: 3px solid #4caf50;
+}
+
+.nav > li.navActive > a {
   border-bottom: 3px solid #4caf50;
 }
 
@@ -113,12 +120,13 @@ nav{
 
 /* Fancy box stuff */
 .fancyborder {
-  border: 2px solid #333; 
+  border: 1px solid #ddd;
+  padding: 20px; 
 }
 
 /* fancy box container margin */
 .fancymargin {
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 /* Footer Stuff */
@@ -129,4 +137,13 @@ nav{
 
 footer h3 {
   margin-top: 0;
+}
+
+footer li{
+  list-style: none;
+  text-indent: none;
+}
+
+footer ul {
+  padding-left: 0;
 }

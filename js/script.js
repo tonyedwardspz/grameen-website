@@ -6,6 +6,7 @@ $(document).ready(function(){
 	console.log("Ready");
 
 	welcome(welcomeMessage);
+    applyActiveClass();
 
 	//MJC actrivate fancybox
 	$('.fancybox').fancybox();
@@ -31,7 +32,7 @@ function applyActiveClass(){
     switch (myElement)
     {
         case "home":
-            $("li.index").addClass("navActive");
+            $("li.home").addClass("navActive");
             break;
         case "restaurant":
             $("li.restaurant").addClass("navActive");
@@ -45,8 +46,7 @@ function applyActiveClass(){
         case "attractions":
             $("li.attractions").addClass("navActive");
             break;
-       	case "privacy":
-            $("li.privacy").addClass("navActive");
-            break;
+        default:
+            return;
     }
 }

@@ -13,10 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
-    <!-- MJC this is current version OF FONT AWESOME, TE put link in to earlier version: -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- MJC this is TE earlier version: this version doesnt support the Facebook icon
-      <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,19 +41,19 @@
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
-            <li class="<?php echo $pageName; ?>">
+            <li class="home">
               <a href="index.php" title="Grameen Tandoori - Home Page">Home</a>  
             </li>
-            <li>
+            <li class="restaurant">
               <a href="restaurant.php" title="Grameen Restaurant Menu">Restaurant</a>
             </li>
-            <li>
+            <li class="takeaway">
               <a href="takeaway.php" title="Grameen Takeaway Menu">Takeaway</a>  
             </li>
-            <li>
+            <li class="contact">
               <a href="contact.php" title="Order Takeaway and Book Table">Contact</a>
             </li> 
-            <li>
+            <li class="attractions">
               <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
             </li>        
           </ul>   
