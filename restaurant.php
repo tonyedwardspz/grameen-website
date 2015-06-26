@@ -6,6 +6,8 @@ $pageTitle = 'The Restaurant';
 $pageDescription = 'The Grameen Tandoori is a Contempary Indian Restaurant with fresh, quality food expertly prepared. View our full menu.';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'restaurant';
+
 
 include './includes/header.php';
 ?>
@@ -27,29 +29,42 @@ include './includes/header.php';
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>    
           </div><!-- /.blog-post -->
 
+          <div class="dlmargin">
+            <div class="row">
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download PDF Menu" role="button">Download Menu PDF »</a>
+              </div>
+              <div class="col-sm-6">
+                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Menu Image" role="button">Download Menu Image »</a>
+              </div>
+            </div>
+          </div>
+
           <!-- Menu 'thumbs' -->   
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
-              <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
-            </a>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
+              </a>
+            </div>
           </div>
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
-              <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" border="0">
-            </a>
+          <div class="row">  
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"  title="Click to Expand Image" >
+                <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
+              </a>
+            </div>
           </div>
-            
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg">
-              <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
-            </a>
-          </div>
-          <div class="col-sm-6">
-            <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg">
-              <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" border="0">
-            </a>
-          </div>
-   
         </div><!-- /.blog-main -->
 
 <?php

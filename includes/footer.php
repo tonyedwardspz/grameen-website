@@ -1,20 +1,21 @@
 
       <footer class="row">
         <hr>
-
-        <div class="col-sm-6 col-md-3">
-          <p clas="image-box">
-            <img src="http://placehold.it/500x330" alt="Image alt text">
-          </p>
-        </div>
-
-
-        <div class="col-sm-6 col-md-3">
-          <p clas="image-box">
-            <img src="http://placehold.it/500x330" alt="Image alt text">
-          </p>
-        </div>
-
+        <!-- MJC create random number and use it to populate fancybox images -->
+        <?php 
+        for ($x = 0; $x <= 1; $x++) {
+        ?>
+          <?php
+            $random = rand(1,13);      
+          ?>
+          <div class="col-sm-6 col-md-3">
+            <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
+              <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
+            </a>
+          </div>
+        <?php
+        } 
+        ?><!-- end of footer fancy box -->
 
         <div class="col-sm-6 col-md-3">
           <h3>Pages</h3>
@@ -45,18 +46,24 @@
 
         <div class="col-sm-6 col-md-3">
           <h3>Contact:</h3>
-          <p>Have a question or feedback? Contact me!</p>
+          <p>Please contact us on:</p>
           <p>
-            <a href="" title="Contact me!"><i class="fa fa-envelope"></i> 01736 000000</a>
+            <a href="" title="Contact me!"><i class="fa fa-phone-square fa-2x"></i>  01736 758470</a>
           </p>
 
-          <a href="" target="_blank" title="Twitter">
+          <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x"></i>
+             <i class="fa fa-facebook-official fa-2x"></i>
             </span>
           </a>
-          <a href="" target="_blank" title="Twitter">
+
+          <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-google-plus fa-2x"></i>
+            </span>
+          </a>
+
+          <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter">
             <span class="fa-stack fa-lg">
               <i class="fa fa-square-o fa-stack-2x"></i>
               <i class="fa fa-twitter fa-stack-1x"></i>
@@ -69,7 +76,6 @@
         <div class="col-sm-12 col-md-6">
           <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/">Purely Web Design</a> | <a href="privacy.php">Privacy Policy</a></p>
         </div>
-
 
         <div class="col-sm-12 col-md-6 alignright">
           <p>All major cards accepted. <img src="images/credit_card_accepted.jpg"></p>
@@ -84,7 +90,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/script.js"></script>
-
+    <!-- TripAdvisor-->
+    <script src="http://www.jscache.com/wejs?wtype=restaurantWidgetGreen&amp;uniq=764&amp;locationId=1996321&amp;icon=knifeAndFork&amp;lang=en_UK&amp;display_version=2"></script>
 
     <script type="application/ld+json">
     {

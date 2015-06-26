@@ -105,17 +105,23 @@ nav{
 }
 
 
+/* download image margin to separate images */
+.dlmargin {
+  margin-bottom:10px;
+}
+
 
 /* Fancy box stuff */
-
 .fancyborder {
   border: 2px solid #333; 
 }
 
-
+/* fancy box container margin */
+.fancymargin {
+  margin-top: 10px;
+}
 
 /* Footer Stuff */
-
 .image-box{
   text-align:center; 
   margin-top:20px;

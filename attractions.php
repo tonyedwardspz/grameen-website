@@ -6,6 +6,8 @@ $pageTitle = 'Local Attractions';
 $pageDescription = 'Attractions and beauty spots near the Grameen Tandoori Restaurant, Hayle.';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'attractions';
+
 
 include './includes/header.php';
 ?>

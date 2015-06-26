@@ -24,4 +24,29 @@ var welcome = function(msg){
 }
 
 
+function applyActiveClass(){
 
+    var myElement = $("body").attr('class');
+
+    switch (myElement)
+    {
+        case "home":
+            $("li.index").addClass("navActive");
+            break;
+        case "restaurant":
+            $("li.restaurant").addClass("navActive");
+            break;
+        case "takeaway":
+            $("li.takeaway").addClass("navActive");
+            break;
+        case "contact":
+            $("li.contact").addClass("navActive");
+            break;
+        case "attractions":
+            $("li.attractions").addClass("navActive");
+            break;
+       	case "privacy":
+            $("li.privacy").addClass("navActive");
+            break;
+    }
+}

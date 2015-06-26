@@ -6,6 +6,8 @@ $pageTitle = 'Privacy Policy';
 $pageDescription = "Grameen Tandoori take your privacy seriously. Here's our privacy policy";
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'privacy';
+
 
 include './includes/header.php';
 ?>

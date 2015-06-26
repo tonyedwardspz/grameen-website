@@ -6,6 +6,8 @@ $pageTitle = 'Contact Details';
 $pageDescription = 'Contact details for the Grameen Tandoori Indian Takeaway and Restaurant. Book  table or place a takeaway order.';
 $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
+$pageName = 'contact';
+
 
 include './includes/header.php';
 ?>
