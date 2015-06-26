@@ -25,13 +25,13 @@ include './includes/header.php';
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
           <h2>Place an Order</h2>
           <p>If you know what you would like and wish to book a table or place an order for takeaway, the restaurant can be contacted directly on 01736 758470.</p>
           <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-6 col-md-4">
           <h2>Opening Hours</h2>
           <p>Open 7 Days a week including Bank Holidays</p>
           <p>Lunch - 12.00pm to 2.00pm<br>Evening - 5.30pm to 11.30pm</p>
