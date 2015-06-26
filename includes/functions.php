@@ -9,4 +9,13 @@ function getCurrentURL($pagePath){
 	return $urlString."/".$pagePath;
 }
 
+
+
+function getRandomReview(){
+	$review = ["This is a awesome review","Another awesome review"];
+
+
+	return $review[0];
+}
+
 ?>
