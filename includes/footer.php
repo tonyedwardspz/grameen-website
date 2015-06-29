@@ -2,19 +2,25 @@
       <footer class="row">
         <hr>
         <!-- MJC create random number and use it to populate fancybox images -->
-        <?php 
-        for ($x = 0; $x <= 1; $x++) {
-        ?>
-          <?php
-            $random = rand(1,13);      
-          ?>
-          <div class="col-sm-6 col-md-3">
-            <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
-              <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
-            </a>
-          </div>
         <?php
-        } 
+          //get random image number
+          $random = rand(1,13);
+
+          for ($x = 0; $x <= 1; $x++){
+        ?>
+            <!--render fancy box-->
+            <div class="col-sm-6 col-md-3 fancyborder">
+              <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
+                <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
+              </a>
+            </div>
+
+        <?php
+            do {
+              $random2 = rand(0,9);
+            } while ($random == $random2);
+            $random = $random2;
+          }//end for loop
         ?><!-- end of footer fancy box -->
 
         <div class="col-sm-6 col-md-3">
@@ -86,7 +92,7 @@
       </footer>
 
     </div> <!-- /container -->
-	
+
     <!-- Scripts -->
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
