@@ -52,31 +52,38 @@
 
         <div class="col-sm-6 col-md-3">
           <h3>Contact:</h3>
-          <p>Please contact us on:</p>
-          <p>
-            <a href="" title="Contact me!"><i class="fa fa-phone-square fa-2x"></i>  01736 758470</a>
-          </p>
 
-          <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
-            <span class="fa-stack fa-lg">
-            <i class="fa fa-square-o fa-stack-2x"></i>
-             <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-          </a>
+            <p>Please contact us on:</p>
+            <p>
+              <a href="" title="Contact me!">
+                  <i class="fa fa-phone-square fa-2x"></i>  01736 758470
+              </a>
 
-          <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
-            <span class="fa-stack fa-lg">
+            </p>
+  
+          <div class="row">
+            <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
+              <span class="fa-stack fa-2x">
               <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-google-plus fa-stack-1x"></i>
-            </span>
-          </a>
+               <i class="fa fa-facebook fa-stack-1x"></i>
+              </span>
+            </a>
 
-          <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter">
-            <span class="fa-stack fa-lg">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-          </a>
+            <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-google-plus fa-stack-1x"></i>
+              </span>
+            </a>
+
+            <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+              </span>
+            </a>
+
+          </div>
         </div>
 
         <hr>
