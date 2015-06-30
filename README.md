@@ -12,11 +12,10 @@ With the server running visit the projects URL.
 
 ## Contributing
 
-1. Clone  to your local server folder.
-2. Create your feature branch.
-3. Commit your changes.
-4. Push to the branch.
-5. Submit a pull/merge request :D
+1. Clone  to your local repo.
+2. Install npm /gulp
+3. Install node-modules.
+4. Run 'gulp'.
 
 ## History
 
