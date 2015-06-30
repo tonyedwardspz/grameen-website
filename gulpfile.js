@@ -32,7 +32,7 @@ gulp.task('scripts', function() {
 
 // Concatenate css
 gulp.task('css', function(){
-	return gulp.src(['css/bootstrap.css','css/style.css'])
+	return gulp.src(['css/bootstrap.css','css/font-awesome.css','css/style.css'])
     .pipe(concatCss("style.css"))
     .pipe(gulp.dest('dist/css'));
 });
