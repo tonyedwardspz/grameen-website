@@ -30,7 +30,7 @@ gulp.task('scripts', function() {
 });
 
 
-// Concatenate and minify css
+// Concatenate css
 gulp.task('css', function(){
 	return gulp.src(['css/bootstrap.css','css/style.css'])
     .pipe(concatCss("style.css"))
@@ -52,22 +52,25 @@ gulp.task('connect', function() {
 });
 
 
-// Rmove uneeded CSS
+// Remove uneeded CSS and minify
 gulp.task('uncss', function() {
   return gulp.src('dist/css/style.css')
     .pipe(uncss({
-       html: ['http://localhost:3000']
+       html: ['http://localhost:3000',
+       				'http://localhost:3000/restaurant.php',
+       				'http://localhost:3000/takeaway.php',
+       				'http://localhost:3000/contact.php',
+       				'http://localhost:3000/attractions.php',
+       				'http://localhost:3000/privacy.php'
+       			 ]
     }))
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/css'));
 });
 
 
-// Default Task
-gulp.task('default',['scripts', 'css'])
-
-// Serve the project
-gulp.task('serve', function(callback) {
+// Serve the project. Call from the command line using 'gulp'
+gulp.task('default', function(callback) {
   runSequence('clean',
               ['scripts','css'],
               'connect',
