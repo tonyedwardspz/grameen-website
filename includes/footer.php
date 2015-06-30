@@ -4,9 +4,10 @@
         <!-- MJC create random number and use it to populate fancybox images -->
         <?php
           //get random image number
-          $random = rand(1,13);
+          
 
           for ($x = 0; $x <= 1; $x++){
+            $random = rand(1,13);
         ?>
             <!--render fancy box-->
             <div class="col-sm-6 col-md-3 fancyborder">
