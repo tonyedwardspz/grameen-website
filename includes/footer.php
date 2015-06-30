@@ -53,15 +53,15 @@
         <div class="col-sm-6 col-md-3">
           <h3>Contact:</h3>
 
-            <p>Please contact us on:</p>
-            <p>
-              <a href="" title="Contact me!">
-                  <i class="fa fa-phone-square fa-2x"></i>  01736 758470
-              </a>
+          <p>Please contact us on:</p>
+          <p>
+            <a href="" title="Contact me!">
+                <i class="fa fa-phone-square fa-2x"></i>  01736 758470
+            </a>
 
-            </p>
-  
-          <div class="row">
+          </p>
+
+          <div class="alignCenter">
             <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
               <span class="fa-stack fa-2x">
               <i class="fa fa-square-o fa-stack-2x"></i>
@@ -82,9 +82,10 @@
                 <i class="fa fa-twitter fa-stack-1x"></i>
               </span>
             </a>
-
           </div>
+
         </div>
+        
 
         <hr>
 
