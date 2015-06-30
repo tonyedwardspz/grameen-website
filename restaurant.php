@@ -26,21 +26,21 @@ include './includes/header.php';
           <div class="blog-post">
             <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
             <hr>
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>    
+            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
           </div><!-- /.blog-post -->
 
           <div class="dlmargin">
             <div class="row">
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download PDF Menu" role="button">Download Menu PDF »</a>
+                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download PDF Menu" role="button" target="_blank" >Download Menu PDF »</a>
               </div>
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Menu Image" role="button">Download Menu Image »</a>
+                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Menu Image" role="button" target="_blank"  >Download Menu Image »</a>
               </div>
             </div>
           </div>
 
-          <!-- Menu 'thumbs' -->   
+          <!-- Menu 'thumbs' -->
           <div class="row">
             <div class="col-sm-6">
               <a href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Click to Expand Image" >
@@ -53,7 +53,7 @@ include './includes/header.php';
               </a>
             </div>
           </div>
-          <div class="row">  
+          <div class="row">
             <div class="col-sm-6">
               <a href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Click to Expand Image" >
                 <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" border="0">
