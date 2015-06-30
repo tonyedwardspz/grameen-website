@@ -2,6 +2,9 @@
 // Place functions in here and call them from within the html markup.
 // This keeps the application logic out of our html/php files.
 
+date_default_timezone_set('Europe/London');
+
+
 function getCurrentURL($pagePath){
 
 	$urlString = "http://www.grameentandoori.co.uk";
