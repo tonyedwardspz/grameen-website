@@ -1,0 +1,35 @@
+{
+  "name": "grameen",
+  "version": "1.0.0",
+  "description": "Bootstrapped website for the Grameen Tndoori Restaurant, Hayle",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tonyedwardspz@github.com/tonyedwardspz/grameen-website.git"
+  },
+  "author": "Tony Edwards, Mike Cave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonyedwardspz/grameen-website/issues"
+  },
+  "homepage": "https://github.com/tonyedwardspz/grameen-website",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.2.0",
+    "gulp-connect-php": "0.0.5",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-serve": "^1.0.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uncss": "^1.0.1",
+    "i": "^0.3.3",
+    "npm": "^2.12.0",
+    "run-sequence": "^1.1.1"
+  }
+}
