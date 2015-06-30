@@ -98,11 +98,8 @@
     </div> <!-- /container -->
 
     <!-- Scripts -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.pack.js"></script>
-    <script src="js/script.js"></script>
-    <!-- TripAdvisor-->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="dist/js/script.min.js"></script>
     <script src="http://www.jscache.com/wejs?wtype=restaurantWidgetGreen&amp;uniq=764&amp;locationId=1996321&amp;icon=knifeAndFork&amp;lang=en_UK&amp;display_version=2"></script>
 
     <script type="application/ld+json">
