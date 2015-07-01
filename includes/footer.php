@@ -123,7 +123,14 @@
       "geo": {
         "latitude": "50.187821",
         "longitude": "-5.422149", 
-      } 
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4 Hayle Terrace",
+        "addressLocality": "Hayle",
+        "addressRegion": "Cornwall",
+        "postalCode": "TR27 4BS"
+        },
     }
     </script>
 
