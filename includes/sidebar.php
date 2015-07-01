@@ -33,7 +33,7 @@
             <h4>Social Media Pages</h4>
             <ol class="list-unstyled">
               <li>
-                <a href="https://plus.google.com/100199113052646253342/about">
+                <a href="https://plus.google.com/100199113052646253342/about" target="_blank" >
                   <span class="fa-stack fa-2x">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-google-plus fa-stack-1x"></i>
@@ -41,7 +41,7 @@
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb">
+                <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" >
                   <span class="fa-stack fa-2x">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-twitter fa-stack-1x"></i>
@@ -49,7 +49,7 @@
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/grameen.tandoorihayle">
+                <a href="https://www.facebook.com/grameen.tandoorihayle" target="_blank" >
                   <span class="fa-stack fa-2x">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x"></i>
