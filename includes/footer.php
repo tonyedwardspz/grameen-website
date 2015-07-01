@@ -108,12 +108,17 @@
       "@context": "http://schema.org",
       "@type": "Restaurant",
       "name": "Grameen Tandoori",
+      "url" : "http://www.grameentandoori.com",
       "description": "Contemporary Indian Restaurant and takeaway in the heart of Hayle, Cornwall",
       "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 12:00-14:00 and 17:30-23:00",
       "telephone": "+441736758470",
       "menu": "http://www.grameentandoori.co.uk/restaurant.php",
       "acceptsReservations": "YES",
-      "servesCuisine": "Indian"
+      "servesCuisine": "Indian",
+      "sameAs" : [ 
+        "https://plus.google.com/100199113052646253342",
+        "https://www.facebook.com/pages/Grameen-Tandoori/132647786785377",
+        "http://www.tripadvisor.co.uk/Restaurant_Review-g528841-d1996321-Reviews-Grameen-Hayle_Cornwall_England.html"] 
     }
     </script>
 
