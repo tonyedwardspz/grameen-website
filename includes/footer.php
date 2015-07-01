@@ -118,7 +118,12 @@
       "sameAs" : [ 
         "https://plus.google.com/100199113052646253342",
         "https://www.facebook.com/pages/Grameen-Tandoori/132647786785377",
-        "http://www.tripadvisor.co.uk/Restaurant_Review-g528841-d1996321-Reviews-Grameen-Hayle_Cornwall_England.html"] 
+        "http://www.tripadvisor.co.uk/Restaurant_Review-g528841-d1996321-Reviews-Grameen-Hayle_Cornwall_England.html"
+      ],
+      "geo": {
+        "latitude": "50.187821",
+        "longitude": "-5.422149", 
+      } 
     }
     </script>
 
