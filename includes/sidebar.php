@@ -23,10 +23,17 @@
           </div>
 
           <div class="sidebar-module">
+            <h4>Review</h4>
+            <ol class="list-unstyled">
+              <li> <?php echo getRandomReview($pageName); ?> </li>
+            </ol>
+          </div>
+
+          <div class="sidebar-module">
             <h4>Social Media Pages</h4>
             <ol class="list-unstyled">
               <li>
-                <a href="https://plus.google.com/100199113052646253342/about">                  
+                <a href="https://plus.google.com/100199113052646253342/about">
                   <span class="fa-stack fa-2x">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-google-plus fa-stack-1x"></i>

@@ -12,10 +12,11 @@ function getCurrentURL($pagePath){
 
 
 function getRandomReview(){
-	$review = ["This is a awesome review","Another awesome review"];
+	$review = ["This is an awesome review","Another awesome review"];
 
-
-	return $review[0];
+	//MJC - When we have the reviews, randomise the element selected from the array
+	$random = rand(0,1);
+	return $review[$random];
 }
 
 ?>
