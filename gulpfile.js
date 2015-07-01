@@ -42,7 +42,7 @@ gulp.task('css', function(){
 gulp.task('copy', function() {
     gulp.src(['js/blank.gif', 'js/fancybox_loading.gif', 'js/fancybox_loading@2x.gif',
               'js/fancybox_overlay.png', 'js/fancybox_sprite.png', 'js/fancybox_sprite@2x.png'])
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('dist/js'))
 });
 
 
