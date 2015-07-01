@@ -32,9 +32,17 @@ gulp.task('scripts', function() {
 
 // Concatenate css
 gulp.task('css', function(){
-	return gulp.src(['css/bootstrap.css','css/font-awesome.css','css/style.css'])
+	return gulp.src(['css/bootstrap.css','css/font-awesome.css','css/style.css', 'js/jquery.fancybox.css'])
     .pipe(concatCss("style.css"))
     .pipe(gulp.dest('dist/css'));
+});
+
+
+// Copy files to the dist folder
+gulp.task('copy', function() {
+    gulp.src(['js/blank.gif', 'js/fancybox_loading.gif', 'js/fancybox_loading@2x.gif',
+              'js/fancybox_overlay.png', 'js/fancybox_sprite.png', 'js/fancybox_sprite@2x.png'])
+        .pipe(gulp.dest('dist/css'))
 });
 
 
@@ -55,15 +63,15 @@ gulp.task('connect', function() {
 // Remove uneeded CSS and minify
 gulp.task('uncss', function() {
   return gulp.src('dist/css/style.css')
-    .pipe(uncss({
-       html: ['http://localhost:3000',
-       				'http://localhost:3000/restaurant.php',
-       				'http://localhost:3000/takeaway.php',
-       				'http://localhost:3000/contact.php',
-       				'http://localhost:3000/attractions.php',
-       				'http://localhost:3000/privacy.php'
-       			 ]
-    }))
+    // .pipe(uncss({
+    //    html: ['http://localhost:3000',
+    //    				'http://localhost:3000/restaurant.php',
+    //    				'http://localhost:3000/takeaway.php',
+    //    				'http://localhost:3000/contact.php',
+    //    				'http://localhost:3000/attractions.php',
+    //    				'http://localhost:3000/privacy.php'
+    //    			 ]
+    // }))
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/css'));
 });
@@ -72,7 +80,7 @@ gulp.task('uncss', function() {
 // Serve the project. Call from the command line using 'gulp'
 gulp.task('default', function(callback) {
   runSequence('clean',
-              ['scripts','css'],
+              ['scripts','css','copy'],
               'connect',
               'uncss',
               callback);
