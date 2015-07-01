@@ -11,13 +11,13 @@
             <!--render fancy box-->
             <div class="col-sm-6 col-md-3 fancyborder">
               <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
-                <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Random Image ]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
+                <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Grameen Tandoori Hayle]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
               </a>
             </div>
 
         <?php
             do {
-              $random2 = rand(0,9);
+              $random2 = rand(1,13);
             } while ($random == $random2);
             $random = $random2;
           }//end for loop
@@ -86,7 +86,7 @@
         <hr>
 
         <div class="col-sm-12 col-md-6">
-          <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/">Purely Web Design</a> | <a href="privacy.php">Privacy Policy</a></p>
+          <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/" title = "Purely Web Design" >Purely Web Design</a> | <a href="privacy.php" titile = "Privacy Policy">Privacy Policy</a></p>
         </div>
 
         <div class="col-sm-12 col-md-6 alignright">
