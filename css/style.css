@@ -15,7 +15,7 @@ hr{
 
 
 
-/* Layout Stuff */
+/* Style Stuff */
 
 .jumboImage{
 	border: 1px solid #333;
@@ -27,6 +27,9 @@ hr{
   text-align: right;
 }
 
+.dlmargin {
+  margin-bottom:10px;
+}
 
 
 /* Header stuff */
@@ -41,8 +44,6 @@ nav{
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   padding-top: 3px;
 }
-
-
 
 .nav > li > a, .nav > li > a {
   border-bottom: 3px solid #fff;
@@ -63,7 +64,7 @@ nav{
   background-color: #4caf50;
 }
 
-/* Medium Devices, Desktops */
+
 @media only screen and (min-width : 768px) {
   nav .container {
     width: 100%
@@ -90,15 +91,21 @@ nav{
   line-height: 1.5;
 }
 
+.blog-post {
+  margin-bottom: 60px;
+}
+
+
+/* Sidebar Stuff*/
+
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
 }
 
-.sidebar-module li{
+.sidebar-social ul li{
   display: inline-block;
 }
-
 
 .sidebar-module-inset {
   padding: 15px;
@@ -112,31 +119,25 @@ nav{
   margin-bottom: 0;
 }
 
-
-
-.blog-post {
-  margin-bottom: 60px;
-}
-
-
-/* download image margin to separate images */
-.dlmargin {
-  margin-bottom:10px;
+.sidebar-module.opening-hours p:last-of-type{
+  font-weight: bold;
 }
 
 
 /* Fancy box stuff */
+
 .fancyborder {
   border: 1px solid #ddd;
   padding: 20px;
 }
 
-/* fancy box container margin */
 .fancymargin {
   margin: 10px 0;
 }
 
+
 /* Footer Stuff */
+
 .image-box{
   text-align:center;
   margin-top:20px;
