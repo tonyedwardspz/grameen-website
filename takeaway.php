@@ -42,25 +42,25 @@ include './includes/header.php';
           <!-- Menu 'thumbs' -->
           <div class="row">
             <div class="col-sm-6">
-              <a href="images/takeawaymenu/takeaway-large-outside.jpg" title="Click to Expand Image" >
-                <img src="images/takeawaymenu/takeaway-thumb-1.jpg" border="0">
+              <a class="fancybox" rel="group" href="images/takeawaymenu/takeaway-large-outside.jpg" title="Grameen Tandoori, Hayle, Takeaway Menu" >
+                <img src="images/takeawaymenu/takeaway-thumb-1.jpg" alt="Grameen Hayle takeaway menu 1">
               </a>
             </div>
             <div class="col-sm-6">
-              <a href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Click to Expand Image" >
-                <img src="images/takeawaymenu/takeaway-thumb-2.jpg" border="0">
+              <a class="fancybox" rel="group" href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Grameen Tandoori, Hayle, Takeaway Menu" >
+                <img src="images/takeawaymenu/takeaway-thumb-2.jpg" alt="Grameen Hayle takeaway menu 2">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-6">
-              <a href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Click to Expand Image" >
-                <img src="images/takeawaymenu/takeaway-thumb-3.jpg" border="0">
+              <a class="fancybox" rel="group" href="images/takeawaymenu/takeaway-large-inside.jpg"  title="Grameen Tandoori, Hayle, Takeaway Menu" >
+                <img src="images/takeawaymenu/takeaway-thumb-3.jpg" alt="Grameen Hayle takeaway menu 3">
               </a>
             </div>
             <div class="col-sm-6">
-              <a href="images/takeawaymenu/takeaway-large-outside.jpg"  title="Click to Expand Image" >
-                <img src="images/takeawaymenu/takeaway-thumb-4.jpg" border="0">
+              <a class="fancybox" rel="group" href="images/takeawaymenu/takeaway-large-outside.jpg"  title="Grameen Tandoori, Hayle, Takeaway Menu" >
+                <img src="images/takeawaymenu/takeaway-thumb-4.jpg" alt="Grameen Hayle takeaway menu 4">
               </a>
             </div>
           </div>
