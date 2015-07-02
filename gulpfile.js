@@ -10,7 +10,8 @@ var gulp = require('gulp'),
 		browserSync = require('browser-sync'),
 		clean = require('gulp-clean'),
 		runSequence = require('run-sequence'),
-		minifyCss = require('gulp-minify-css');
+		minifyCss = require('gulp-minify-css'),
+    stripDebug = require('gulp-strip-debug');
 
 
 // Clean the dist folder
@@ -24,6 +25,7 @@ gulp.task('clean', function () {
 gulp.task('scripts', function() {
 	return gulp.src(['js/bootstrap.min.js','js/jquery.fancybox.pack.js','js/script.js'])
 	  .pipe(concat('script.js'))
+    .pipe(stripDebug())
 	  .pipe(rename({suffix: '.min'}))
 	  .pipe(uglify())
 	  .pipe(gulp.dest('dist/js'));
