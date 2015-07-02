@@ -1,28 +1,8 @@
 
       <footer class="row">
         <hr>
-        <!-- MJC create random number and use it to populate fancybox images -->
-        <?php
-          //get random image number
-          
-
-          for ($x = 0; $x <= 1; $x++){
-            $random = rand(1,13);
-        ?>
-            <!--render fancy box-->
-            <div class="col-sm-6 col-md-3 fancyborder">
-              <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
-                <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="[ Grameen Tandoori Hayle]" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
-              </a>
-            </div>
-
-        <?php
-            do {
-              $random2 = rand(1,13);
-            } while ($random == $random2);
-            $random = $random2;
-          }//end for loop
-        ?><!-- end of footer fancy box -->
+        
+        <?php include 'fancy_images.php'; ?>
 
         <div class="col-sm-6 col-md-3">
           <h3>Pages</h3>

@@ -69,6 +69,5 @@ include './includes/header.php';
 
 <?php
 include './includes/sidebar.php';
-include './includes/fancy_images.php';
 include './includes/footer.php';
 ?>
