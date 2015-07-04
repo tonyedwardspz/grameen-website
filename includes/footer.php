@@ -34,7 +34,7 @@
           <h3>Contact:</h3>
             <p>Please contact us on:</p>
             <p>
-              <a href="" title="Contact me!">
+              <a href="" title="Contact us">
                   <i class="fa fa-phone-square fa-2x"></i>  01736 758470
               </a>
             </p>

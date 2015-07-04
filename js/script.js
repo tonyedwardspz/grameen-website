@@ -1,12 +1,8 @@
-var welcomeMessage = "Function called on ready";
-
-
 // called once the document has fully loaded
 $(document).ready(function(){
-	console.log("Ready");
 
-	welcome(welcomeMessage);
     applyActiveClass();
+    alterTitleText();
 
 	//MJC actrivate fancybox
 	$('.fancybox').fancybox();
@@ -15,22 +11,26 @@ $(document).ready(function(){
 
 // called when the browser window resizes
 $(window).resize(function(){
-	console.log('Resize')
+    alterTitleText();
 });
 
 
-// Storing functions in variables caches them in browser memory
-var welcome = function(msg){
-	console.log(msg);
+var alterTitleText = function() {
+    if(window.innerWidth <= 280) {
+        $("a.navbar-brand").text("Grameen");
+    } else if (window.innerWidth <= 370){
+        $("a.navbar-brand").text("Grameen Tandoori");
+    } else {
+        $("a.navbar-brand").text("Grameen Tandoori Restaurant");
+    }
 }
 
 
-function applyActiveClass(){
+var applyActiveClass = function(){
 
     var myElement = $("body").attr('class');
 
-    switch (myElement)
-    {
+    switch (myElement){
         case "home":
             $("li.home").addClass("navActive");
             break;
