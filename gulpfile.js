@@ -42,7 +42,7 @@ gulp.task('css', function(){
 gulp.task('fancybox', function(){
   return gulp.src(['dist/css/style.css', 'js/jquery.fancybox.css'])
     .pipe(concatCss("style.css"))
-    .pipe(minifyCss({compatibility: 'ie8'}))
+    //.pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(gulp.dest('dist/css'));
 })
 
@@ -90,7 +90,7 @@ gulp.task('default', function(callback) {
   runSequence('clean',
               ['scripts','css','copy'],
               'connect',
-              'uncss',
+              //'uncss',
               'fancybox',
               callback);
 });
