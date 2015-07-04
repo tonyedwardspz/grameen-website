@@ -31,10 +31,10 @@ include './includes/header.php';
           <div class="dlmargin">
             <div class="row">
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/takeawaymenu/Grameen-takeaway-menu-dl.pdf" title="Download PDF Menu" role="button" target="_blank" >Download Menu PDF »</a>
+                <a class="btn btn-default" href="images/takeawaymenu/Grameen-takeaway-menu-dl.pdf" title="Download Takeaway Menu (PDF)" role="button" download="Grameen_Takeaway_Menu">Download Menu (PDF)</a>
               </div>
               <div class="col-sm-6">
-                <a class="btn btn-default" href="images/takeawaymenu/grameen-takeaway-menu-dl.jpg" title="Download Menu Image" role="button" target="_blank" >Download Menu Image »</a>
+                <a class="btn btn-default" href="images/takeawaymenu/grameen-takeaway-menu-dl.jpg" title="Download Takeaway Menu (PNG)" role="button" download="Grameen_Takeaway_Menu">Download Menu (PNG)</a>
               </div>
             </div>
           </div>

@@ -31,12 +31,8 @@ include './includes/header.php';
 
           <div class="dlmargin">
             <div class="row">
-              <div class="col-xs-6">
-                <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download Restaurant Menu (PDF)" role="button" target="_blank" >Download Menu PDF</a>
-              </div>
-              <div class="col-xs-6">
-                <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Resraurant Menu (PNG)" role="button" target="_blank"  >Download Menu Image</a>
-              </div>
+              <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" download="Grameen_Restaurant_Menu" title="Download Restaurant Menu (PDF)" role="button">Download Menu (PDF)</a>
+              <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" download="Grameen_Restaurant_Menu" title="Download Restaurant Menu (PNG)" role="button">Download Menu (PNG)</a>
             </div>
           </div>
 
