@@ -4,7 +4,7 @@
         
         <?php include 'fancy_images.php'; ?>
 
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <h3>Pages</h3>
           <ul>
             <li>
@@ -30,8 +30,7 @@
           </ul>
         </div>
 
-
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <h3>Contact:</h3>
             <p>Please contact us on:</p>
             <p>

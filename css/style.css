@@ -17,6 +17,12 @@ hr{
 
 /* Style Stuff */
 
+@media only screen and (max-width : 768px) {
+  div.jumbotron {
+    padding-top: 50px;
+  }
+}
+
 .jumboImage{
 	border: 1px solid #333;
 	float: left;

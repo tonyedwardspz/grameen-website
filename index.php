@@ -14,11 +14,16 @@ include './includes/header.php';
     <div class="jumbotron">
       <div class="container">
         <h1>Welcome to Grameen Tandoori Restaurant</h1>
-          <img class="jumboImage" src="images/food4homepage.jpg" height="266" width="400">
-          <p>The Grameen Tandoori restaurant is situated on Hayle Terrace overlooking Hayle estuary. The unassuming exterior opens up into a wonderful and contemporary Indian dining experience.</p>
-          <p>The restaurant offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway. 
-             All food is prepared by our highly experienced team using only the freshest ingredients and the best spices.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
+        <div class="row">
+          <div class="col-sm-8">
+            <p>The Grameen Tandoori restaurant is situated on Hayle Terrace overlooking Hayle estuary. The unassuming exterior opens up into a wonderful and contemporary Indian dining experience.</p>
+            <p>The restaurant offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway.</p>
+          </div>
+          <div class="col-sm-4">
+            <img class="jumboImage" src="images/food4homepage.jpg" height="266" width="400">
+          </div>
+
+        </div>
       </div>
     </div>
 

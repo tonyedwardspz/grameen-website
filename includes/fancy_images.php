@@ -12,7 +12,7 @@
                   $iCnt++;
           ?>
                   <!--render fancybox -->
-                  <div class="col-sm-6 fancyborder">
+                  <div class="col-xs-6 col-md-3 fancyborder">
                     <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
                       <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="Grameen Tandoori" /> <!--filename is 1-tn.jpg, 2-tn.jpg etc -->
                     </a>
