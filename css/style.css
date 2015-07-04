@@ -124,6 +124,16 @@ nav{
 }
 
 
+/* Attractions page stuff */
+body.attractions .col-sm-8.attractions-wrapper {
+  margin-left: -15px;
+}
+
+.attraction-box {
+
+}
+
+
 /* Fancy box stuff */
 
 .fancyborder {
