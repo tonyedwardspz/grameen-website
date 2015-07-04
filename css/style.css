@@ -113,6 +113,10 @@ nav{
   display: inline-block;
 }
 
+.sidebar-social i{
+  margin-left: -5px;
+}
+
 .sidebar-module-inset {
   padding: 15px;
   background-color: #f5f5f5;
