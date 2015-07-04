@@ -133,8 +133,37 @@ nav{
   float:right;
 }
 
-.address a{
-  text-color:black;
+.address a,
+.address a:link
+.address a:visited,
+.address a:hover,
+.address a:active{
+  color:black;
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 480px) {
+  .address .btn,
+  .address .btn-default {
+    background-color: #f5f5f5;
+    border: none;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .sidebar-module {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sidebar-module ul li{
+    display: inline-block;
+  }
+
+  .blog-sidebar div:first-of-type {
+    margin-top: 15px;
+  }
 }
 
 

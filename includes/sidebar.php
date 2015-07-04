@@ -13,10 +13,10 @@
 
           <div class="sidebar-module sidebar-module-inset address">
             <h4>Contact Us</h4>
+
+            <a href="tel:01736758470" class="btn btn-default" role="button" title="Contact Grameen Hayle">01736 758470</a><i class="fa fa-phone-square fa-3x"></i>
+            
             <ul class="list-unstyled">
-              <li>
-                <a href="+tel:01736758470">01736 758470</a><i class="fa fa-phone-square fa-3x"></i>
-              </li>
               <li>4 Hayle Terrace,</li>
               <li>Hayle,</li>
               <li>Cornwall,</li>
@@ -24,14 +24,14 @@
             </ul>
           </div>
 
-          <div class="sidebar-module">
+          <div class="sidebar-module sidebar-module-inset">
             <h4>Review</h4>
             <ol class="list-unstyled">
               <li><?php echo getRandomReview($pageName); ?></li>
             </ol>
           </div>
 
-          <div class="sidebar-module sidebar-social">
+          <div class="sidebar-module sidebar-social sidebar-module-inset">
             <h4>Social Media Pages</h4>
             <ul class="list-unstyled">
               <li>
@@ -59,11 +59,11 @@
                 </a>
               </li>
             </ul>
-            <div id="TA_restaurantWidgetGreen764" class="TA_restaurantWidgetGreen">
-              <ul id="E1unA7DvU00" class="TA_links 4FolVxVkM2SR">
-                <li id="9EyzXXB0z" class="CKiYEJ2">
-                  <a target="_blank" href="http://www.tripadvisor.co.uk/" title="TripAdvisor">
-                    <img src="http://www.tripadvisor.co.uk/img/cdsi/partner/tripadvisor_logo_117x18-24177-2.png" title="Grameen Trip Advisor">
+            <div id="TA_cdsratingsonlynarrow380" class="TA_cdsratingsonlynarrow">
+              <ul id="WCcA93IoY" class="TA_links 6PohLRXqwZ">
+                <li id="MUBjhVqfzUC8" class="koRZop0U">
+                  <a target="_blank" href="http://www.tripadvisor.co.uk/">
+                    <img src="http://www.tripadvisor.co.uk/img/cdsi/img2/branding/tripadvisor_logo_transp_340x80-18034-2.png" alt="TripAdvisor"/>
                   </a>
                 </li>
               </ul>

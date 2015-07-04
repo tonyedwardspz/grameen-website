@@ -3,6 +3,7 @@ $(document).ready(function(){
 
     applyActiveClass();
     alterTitleText();
+    phoneNumberSmallScreen();
 
 	//MJC actrivate fancybox
 	$('.fancybox').fancybox();
@@ -12,6 +13,7 @@ $(document).ready(function(){
 // called when the browser window resizes
 $(window).resize(function(){
     alterTitleText();
+    phoneNumberSmallScreen();
 });
 
 
@@ -22,6 +24,12 @@ var alterTitleText = function() {
         $("a.navbar-brand").text("Grameen Tandoori");
     } else {
         $("a.navbar-brand").text("Grameen Tandoori Restaurant");
+    }
+}
+
+var phoneNumberSmallScreen = function(){
+    if (window.innerWidth <= 600) {
+        $(".address a").addClass("btn");
     }
 }
 

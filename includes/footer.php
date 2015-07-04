@@ -80,7 +80,7 @@
     <!-- Scripts -->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="dist/js/script.min.js"></script>
-    <script src="http://www.jscache.com/wejs?wtype=restaurantWidgetGreen&amp;uniq=764&amp;locationId=1996321&amp;icon=knifeAndFork&amp;lang=en_UK&amp;display_version=2"></script>
+    <script src="http://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=380&amp;locationId=1996321&amp;lang=en_UK&amp;border=true&amp;display_version=2"></script>
 
     <script type="application/ld+json">
     {
