@@ -9,6 +9,7 @@ var gulp = require('gulp'),
 		clean = require('gulp-clean'),
 		runSequence = require('run-sequence'),
 		minifyCss = require('gulp-minify-css'),
+    connect = require('gulp-connect-php'),
     stripDebug = require('gulp-strip-debug');
 
 
@@ -55,7 +56,7 @@ gulp.task('connect', function() {
   });
 
   gulp.watch(['js/*.js','css/*.css'], ['scripts','css']);
-  gulp.watch(['*.php', 'dist/css/*.css', 'dist/js/*.js']).on('change', function () {
+  gulp.watch(['*.php','includes/*.php', 'dist/css/*.css', 'dist/js/*.js']).on('change', function () {
     browserSync.reload();
   });
 });

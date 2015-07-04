@@ -15,7 +15,7 @@
             <h4>Contact Us</h4>
             <ul class="list-unstyled">
               <li>
-                <i class="fa fa-phone-square fa-3x"></i>01736 758470
+                <a href="+tel:01736758470">01736 758470</a><i class="fa fa-phone-square fa-3x"></i>
               </li>
               <li>4 Hayle Terrace,</li>
               <li>Hayle,</li>
@@ -27,7 +27,7 @@
           <div class="sidebar-module">
             <h4>Review</h4>
             <ol class="list-unstyled">
-              <li> <?php echo getRandomReview($pageName); ?> </li>
+              <li><?php echo getRandomReview($pageName); ?></li>
             </ol>
           </div>
 

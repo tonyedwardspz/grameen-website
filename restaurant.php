@@ -31,10 +31,10 @@ include './includes/header.php';
 
           <div class="dlmargin">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <a class="btn btn-default" href="images/restaurantmenu/Grameen-restaurant-menu-dl.pdf" title="Download Restaurant Menu (PDF)" role="button" target="_blank" >Download Menu PDF</a>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <a class="btn btn-default" href="images/restaurantmenu/grameen-restaurant-menu-dl.jpg" title="Download Resraurant Menu (PNG)" role="button" target="_blank"  >Download Menu Image</a>
               </div>
             </div>
@@ -42,24 +42,24 @@ include './includes/header.php';
 
           <!-- Menu 'thumbs' -->
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <a class="fancybox" rel="group" href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg" title="Grameen Tandoori Restaurant Menu" >
                 <img src="images/restaurantmenu/grameen-restaurant-1-lg.jpg" alt="Restaurant menu 1">
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <a class="fancybox" rel="group" href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Grameen Tandoori Restaurant Menu" >
                 <img src="images/restaurantmenu/grameen-restaurant-2-lg.jpg" alt="Restaurant menu 2">
               </a>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <a class="fancybox" rel="group" href="images/restaurantmenu/grameen-restaurant-inside-lg.jpg"  title="Grameen Tandoori Restaurant Menu" >
                 <img src="images/restaurantmenu/grameen-restaurant-3-lg.jpg" alt="Restaurant menu 3">
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-xs-6">
               <a class="fancybox" rel="group" href="images/restaurantmenu/grameen-restaurant-outside-lg.jpg"  title="Grameen Tandoori Restaurant Menu" >
                 <img src="images/restaurantmenu/grameen-restaurant-4-lg.jpg" alt="Restaurant menu 4">
               </a>

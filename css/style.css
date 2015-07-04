@@ -129,6 +129,14 @@ nav{
   font-weight: bold;
 }
 
+.address i {
+  float:right;
+}
+
+.address a{
+  text-color:black;
+}
+
 
 /* Attractions page stuff */
 body.attractions .col-sm-8.attractions-wrapper {
