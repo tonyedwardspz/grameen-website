@@ -129,10 +129,6 @@ nav{
   font-weight: bold;
 }
 
-.address i {
-  float:right;
-}
-
 .address a,
 .address a:link
 .address a:visited,
@@ -177,18 +173,6 @@ body.attractions .col-sm-8.attractions-wrapper {
 }
 
 
-/* Fancy box stuff */
-
-.fancyborder {
-  border: 1px solid #ddd;
-  padding: 20px;
-}
-
-.fancymargin {
-  margin: 10px 0;
-}
-
-
 /* Footer Stuff */
 
 .image-box{
@@ -208,3 +192,44 @@ footer li{
 footer ul {
   padding-left: 0;
 }
+
+.fancy-image-wrapper {
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+  margin: 15px;
+}
+
+@media only screen and (max-width : 992px) {
+  .fancy-image-wrapper img {
+    margin-bottom: 15px;
+  }
+}
+
+.fancy-image-wrapper img {
+  padding: 8px;
+  border: 1px solid #ddd;
+  background: #eee;
+}
+
+.fancy-image-wrapper .col-xs-6{
+  padding: 0px;
+}
+
+i.fa-phone-square {
+  float:right;
+}
+
+.fa-phone-square a,
+.fa-phone-square a:link
+.fa-phone-square a:visited,
+.fa-phone-square a:hover,
+.fa-phone-square a:active{
+  color:black;
+  text-decoration: none;
+}
+
+footer .info {
+  margin-top: -30px;
+}
+
+

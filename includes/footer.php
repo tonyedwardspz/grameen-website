@@ -1,10 +1,8 @@
 
       <footer class="row">
-        <hr>
-        
         <?php include 'fancy_images.php'; ?>
 
-        <div class="col-xs-6 col-md-3">
+        <div class="col-xs-6 col-md-3 info">
           <h3>Pages</h3>
           <ul>
             <li>
@@ -30,46 +28,27 @@
           </ul>
         </div>
 
-        <div class="col-xs-6 col-md-3">
-          <h3>Contact:</h3>
-            <p>Please contact us on:</p>
-            <p>
-              <a href="" title="Contact us">
-                  <i class="fa fa-phone-square fa-2x"></i>  01736 758470
-              </a>
-            </p>
-
-          <div class="row">
-            <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook">
-              <span class="fa-stack fa-2x">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-               <i class="fa fa-facebook fa-stack-1x"></i>
-              </span>
-            </a>
-
-            <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-google-plus fa-stack-1x"></i>
-              </span>
-            </a>
-
-            <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-square-o fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-              </span>
-            </a>
-          </div>
+        <div class="col-xs-6 col-md-3 info">
+          <h3>Contact Details</h3>
+          <p>
+            <a href="tel:01736758470" title="Contact us" class="footer-phone">01736 758470</a>
+          </p>
+          <p>
+            <a href="https://www.facebook.com/grameen.tandoorihayle" title="Facebook"  target="_blank" title="Facebook"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span></a>
+            <a href="https://plus.google.com/100199113052646253342/about" title="Google Plus" target="_blank" title="Google Plus"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x"></i></span></a>
+            <a href="https://twitter.com/search?src=typd&q=grameen%20hayle&lang=en-gb" target="_blank" title="Twitter"><span class="fa-stack fa-2x"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span></a>
+          </p>
         </div>
 
-        <hr>
+        <span class="col-xs-12">
+          <hr>
+        </span>
 
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 bottom-footer">
           <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/" title = "Purely Web Design" >Purely Web Design</a> | <a href="privacy.php" titile = "Privacy Policy">Privacy Policy</a></p>
         </div>
 
-        <div class="col-sm-12 col-md-6 alignright">
+        <div class="col-sm-12 col-md-6 alignright bottom-footer">
           <p>All major cards accepted. <img src="images/credit_card_accepted.jpg"></p>
         </div>
 
