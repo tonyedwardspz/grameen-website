@@ -33,8 +33,8 @@ hr{
   text-align: right;
 }
 
-.dlmargin {
-  margin-bottom:10px;
+.download-buttons{
+  margin-bottom: 15px;
 }
 
 
@@ -70,7 +70,6 @@ nav{
   background-color: #4caf50;
 }
 
-
 @media only screen and (min-width : 768px) {
   nav .container {
     width: 100%
@@ -95,10 +94,6 @@ nav{
 .blog-main {
   font-size: 18px;
   line-height: 1.5;
-}
-
-.blog-post {
-  margin-bottom: 60px;
 }
 
 
@@ -209,10 +204,17 @@ footer ul {
   }
 }
 
+@media only screen and (min-width: 993px) {
+  footer .info {
+    margin-top: -30px;
+  }
+}
+
 .fancy-image-wrapper img {
   padding: 8px;
   border: 1px solid #ddd;
   background: #eee;
+  display:block;
 }
 
 .fancy-image-wrapper .col-xs-6{
@@ -231,9 +233,3 @@ i.fa-phone-square {
   color:black;
   text-decoration: none;
 }
-
-footer .info {
-  margin-top: -30px;
-}
-
-
