@@ -21,6 +21,11 @@ hr{
   div.jumbotron {
     padding-top: 50px;
   }
+
+  .jumbotron .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 .jumboImage{
@@ -49,6 +54,10 @@ nav{
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
   padding-top: 3px;
+}
+
+.navbar {
+  border: none;
 }
 
 .nav > li > a, .nav > li > a {
