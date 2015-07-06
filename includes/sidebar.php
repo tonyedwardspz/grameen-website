@@ -25,14 +25,14 @@
           </div>
 
           <div class="sidebar-module sidebar-module-inset">
-            <h4>Review</h4>
+            <h4>Reviews</h4>
             <ol class="list-unstyled">
               <li><?php echo getRandomReview($pageName); ?></li>
             </ol>
           </div>
 
           <div class="sidebar-module sidebar-social sidebar-module-inset">
-            <h4>Social Media Pages</h4>
+            <h4>Follow us</h4>
             <ul class="list-unstyled">
               <li>
                 <a href="https://plus.google.com/100199113052646253342/about" target="_blank" title="Grameen Indian Restaurant on Google Plus">

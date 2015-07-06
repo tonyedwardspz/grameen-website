@@ -13,26 +13,28 @@ hr{
  margin: 15px 0;
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
 
 
 /* Style Stuff */
-
-@media only screen and (max-width : 768px) {
-  div.jumbotron {
-    padding-top: 50px;
-  }
-
-  .jumbotron .container {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-.jumboImage{
-	border: 1px solid #333;
-	float: left;
-	margin-right: 10px;
-}
 
 .alignright {
   text-align: right;
@@ -102,6 +104,71 @@ nav{
   .nav > li.navActive > a {
     border-bottom: 3px solid #4caf50;
     border-left: none;
+  }
+}
+
+
+/* Jumbotron */
+
+div.jumbotron {
+  padding-top: 4em;
+}
+
+.jumbotron img{
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+.jumbotron .col-sm-4 {
+  text-align: center;
+}
+
+  .jumbotron h1{
+
+  }
+
+@media only screen and (min-width : 320px) {
+  .jumbotron h1{
+    font-size: 24px
+  }       
+}
+
+@media only screen and (min-width : 515px) {
+  .jumbotron h1{
+    font-size: 28px
+  }
+}
+
+@media only screen and (min-width : 620px) {
+  .jumbotron h1{
+    font-size: 34px
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .jumbotron h1{
+    font-size: 46px;
+  }
+
+  div.jumbotron {
+    padding-top: 50px;
+  }
+
+  .jumbotron .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .jumbotron h1{
+    font-size: 60px;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  .jumbotron h1{
+
   }
 }
 

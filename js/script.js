@@ -5,7 +5,7 @@ $(document).ready(function(){
     alterTitleText();
     phoneNumberSmallScreen();
 
-	//MJC actrivate fancybox
+    // Plugin calls
 	$('.fancybox').fancybox();
 });
 
