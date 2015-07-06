@@ -44,7 +44,7 @@
           <hr>
         </span>
 
-        <div class="col-sm-12 col-md-6 bottom-footer">
+        <div class="col-xm-12 col-md-6 bottom-footer copyright">
           <p>&copy; <?php echo date('Y'); ?> Grameen Tandoori | <a href="http://purelywebdesign.co.uk/" title = "Purely Web Design" >Purely Web Design</a> | <a href="privacy.php" titile = "Privacy Policy">Privacy Policy</a></p>
         </div>
 

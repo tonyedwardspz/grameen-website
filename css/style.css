@@ -198,13 +198,17 @@ footer ul {
   margin: 15px;
 }
 
-.bottom-footer {
+.bottom-footer.copyright {
   clear: left;
 }
 
 @media only screen and (max-width : 992px) {
   .fancy-image-wrapper img {
     margin-bottom: 15px;
+  }
+
+  footer .alignright {
+    text-align: left;
   }
 }
 
