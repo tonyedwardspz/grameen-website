@@ -52,18 +52,22 @@ nav{
 }
 
 .nav > li > a, .nav > li > a {
-  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
   background-color: #fff;
-  border-bottom: 3px solid #4caf50;
+  border-left: 3px solid #4caf50;
 }
 
 .nav > li.navActive > a {
-  border-bottom: 3px solid #4caf50;
+  border-left: 3px solid #4caf50;
+}
+
+.navbar-nav {
+  margin-bottom: 0;
 }
 
 .navbar-toggle .icon-bar {
@@ -73,6 +77,22 @@ nav{
 @media only screen and (min-width : 768px) {
   nav .container {
     width: 100%
+  }
+
+  .nav > li > a, .nav > li > a {
+    border-bottom: 3px solid #fff;
+    border-left: none;
+  }
+
+  .nav > li > a:hover,
+  .nav > li > a:focus {
+    border-bottom: 3px solid #4caf50;
+    border-left: none;
+  }
+
+  .nav > li.navActive > a {
+    border-bottom: 3px solid #4caf50;
+    border-left: none;
   }
 }
 
