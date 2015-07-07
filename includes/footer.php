@@ -6,24 +6,19 @@
           <h3>Pages</h3>
           <ul>
             <li>
-              <a href="index.php" title="Grameen Tandoori Home Page">
-                Home</a>
+              <a href="index.php" title="Grameen Tandoori Home Page">Home</a>
             </li>
             <li>
-              <a href="restaurant.php" title="Grameen Restaurant Menu">
-                Our Restaurant</a>
+              <a href="restaurant.php" title="Grameen Restaurant Menu">Our Restaurant</a>
             </li>
             <li>
-              <a href="takeaway.php" title="Grameen Takeaway Menu">
-                Takeaways and Delivery</a>
+              <a href="takeaway.php" title="Grameen Takeaway Menu">Takeaways and Delivery</a>
             </li>
             <li>
-              <a href="contact.php" title="Order Takeaway and Book Table">
-                 Contact us</a>
+              <a href="contact.php" title="Order Takeaway and Book Table">Contact us</a>
             </li>
             <li>
-              <a href="attractions.php" title="Attractions in West Cornwall">
-                Local Attractions</a>
+              <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
             </li>
           </ul>
         </div>

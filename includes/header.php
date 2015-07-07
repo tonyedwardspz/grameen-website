@@ -46,12 +46,12 @@
             <li class="takeaway">
               <a href="takeaway.php" title="Grameen Takeaway Menu">Takeaway</a>  
             </li>
-            <li class="contact">
-              <a href="contact.php" title="Order Takeaway and Book Table">Contact</a>
-            </li> 
             <li class="attractions">
-              <a href="attractions.php" title="Attractions in West Cornwall">Local Attractions</a>
-            </li>        
+              <a href="attractions.php" title="Attractions in West Cornwall">Attractions</a>
+            </li>
+            <li class="contact">
+              <a href="contact.php" title="Order Takeaway and Book Table">Booking</a>
+            </li>     
           </ul>   
         </div>
       </div>
