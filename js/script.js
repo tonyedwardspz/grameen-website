@@ -4,6 +4,7 @@ $(document).ready(function(){
     applyActiveClass();
     alterTitleText();
     phoneNumberSmallScreen();
+    sizeJumbotron();
 
     // Plugin calls
 	$('.fancybox').fancybox();
@@ -17,6 +18,12 @@ $(window).resize(function(){
 });
 
 
+var sizeJumbotron = function() {
+    var imageHeight = $('#jumboImage').height();
+    $('#jumboText').height(imageHeight);
+}
+
+
 var alterTitleText = function() {
     if(window.innerWidth <= 280) {
         $("a.navbar-brand").text("Grameen");
@@ -26,6 +33,7 @@ var alterTitleText = function() {
         $("a.navbar-brand").text("Grameen Tandoori Restaurant");
     }
 }
+
 
 var phoneNumberSmallScreen = function(){
     if (window.innerWidth <= 600) {
