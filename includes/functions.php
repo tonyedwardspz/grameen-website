@@ -11,7 +11,7 @@ function getRandomReview(){
     '"All the dishes were beautifully presented and the waiters were attentive, but never pushy. They do take-aways too!" - www.qype.co.uk'
    );
 
-	$random = rand(0,1);
+	$random = rand(0,2);
 	return $review[$random];
 }
 

@@ -30,21 +30,21 @@ include 'includes/header.php';
     <div class="container">
       <div class="row">
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-xs-6 col-md-4">
           <h2>Freshly Prepare</h2>
           <p>Our restaurant is situated on Hayle Terrace overlooking Hayle estuary and offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway.</p>
           <p>If you know what you would like and wish to book a table or place an order for takeaway, the restaurant can be contacted directly on 01736 758470.</p>
           <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </div>
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-xs-6 col-md-4">
           <h2>Authentic flavors</h2>
           <p>Open 7 Days a week including Bank Holidays</p>
           <p>Lunch - 12.00pm to 2.00pm<br>Evening - 5.30pm to 11.30pm</p>
           <p>The Grameen Restaurant has disabled facilities</p>
        </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 review">
           <h2>Order now</h2>
           <p><?php echo getRandomReview($pageName); ?></p>
           <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
