@@ -1,5 +1,5 @@
 <?php
-include './includes/functions.php';
+include 'includes/functions.php';
 
 // Metatag variables
 $pageTitle = 'Indian Restaurant and Takeaway';
@@ -8,7 +8,7 @@ $pageImageSrc = 'http://placehold.it/280x150';
 $pagePath = basename(__FILE__);
 $pageName = 'home';
 
-include './includes/header.php';
+include 'includes/header.php';
 ?>
 
     <div class="jumbotron">
@@ -20,7 +20,7 @@ include './includes/header.php';
             <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
           </div>
           <div class="col-sm-4">
-            <img id="jumboImage" src="images/food4homepage.jpg" height="266" width="400">
+            <img id="jumboImage" src="images/home_food.jpg" height="266" width="400">
           </div>
 
         </div>
@@ -46,14 +46,12 @@ include './includes/header.php';
 
         <div class="col-md-4">
           <h2>Order now</h2>
-          <p>"The best, and most reliable, Indian restaurant in the town. A modern interior and discrete lighting make a pleasant atmosphere." - www.gourmetbritain.com</p>
-          <p>"Everybody’s food was was delicious. I had the vegetable biryani which was fragrant and tasty and my daughter enjoyed the vegetable balti. 
-            All the dishes were beautifully presented and the waiters were attentive, but never pushy. They do take-aways too!" - www.qype.co.uk </p>
+          <p><?php echo getRandomReview($pageName); ?></p>
           <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
         </div>
 
       </div>
 
 <?php
-include './includes/footer.php';
+include 'includes/footer.php';
 ?>

@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
           </button>
 
-          <a class="navbar-brand" href="index.php" title="Grameen Tandoori Hayle">Grameen Tandoori Restaurant</a>  
+          <a class="navbar-brand" href="http://www.grameentandoori.co.uk" title="Grameen Tandoori Hayle">Grameen Tandoori Restaurant</a>  
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
