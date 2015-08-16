@@ -33,22 +33,20 @@ include 'includes/header.php';
 
         <div class="col-xs-6 col-md-4">
           <h2>Freshly Prepared</h2>
-          <p>Our restaurant is situated on Hayle Terrace overlooking Hayle estuary and offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway.</p>
-          <p>If you know what you would like and wish to book a table or place an order for takeaway, the restaurant can be contacted directly on 01736 758470.</p>
-          <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+          <p>All of our food is freshly prepared when ordered using only the finest ingredients and fragrant spices.</p>
+          <p>Our team of chefs have a lifetime of experience in cooking quality food, ensureing every dish is as tasty as it can be.</p>
         </div>
 
         <div class="col-xs-6 col-md-4">
           <h2>Authentic flavors</h2>
-          <p>Open 7 Days a week including Bank Holidays</p>
-          <p>Lunch - 12.00pm to 2.00pm<br>Evening - 5.30pm to 11.30pm</p>
-          <p>The Grameen Restaurant has disabled facilities</p>
+          <p>Our menu includes all the dishes you have come to expect from your favourite Indian restaurant.</p>
+          <p>If you're feeling a little adventurous, why not try one of our chef's specials, many of which are unique to our restaurant.</p>
        </div>
 
         <div class="col-md-4 review">
-          <h2>Order now</h2>
-          <p><?php echo getRandomReview($pageName); ?></p>
-          <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+          <h2>Knowledgeable Staff</h2>
+          <p>Our experienced front of house team are on hand to make your visit as enjoyale as possible.</p>
+          <p>We can recommend a dish perfect for your taste, aswell as the ideal accompaning drink for your meal.</p>
         </div>
 
       </div>

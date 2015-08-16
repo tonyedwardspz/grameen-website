@@ -3,16 +3,8 @@
         <!-- SIDEBAR -->
         <div class="col-xs-12 col-sm-3 col-sm-offset-1 blog-sidebar">
 
-          <div class="sidebar-module sidebar-module-inset opening-hours">
-            <h4>Opening Hours</h4>
-            <p>Open 7 Days a week including Bank Holidays</p>
-            <p>Lunch - 12.00pm to 2.00pm</p>
-            <p>Evening - 5.30pm to 11.30pm</p>
-            <p>The Grameen Restaurant has disabled facilities</p>
-          </div>
-
           <div class="sidebar-module sidebar-module-inset address">
-            <h4>Contact Us</h4>
+            <h4>Contact Details</h4>
 
             <a href="tel:01736758470" class="btn btn-default" role="button" title="Contact Grameen Hayle">01736 758470</a><i class="fa fa-phone-square fa-3x"></i>
             
@@ -22,6 +14,15 @@
               <li>Cornwall,</li>
               <li>TR27 4BS</li>
             </ul>
+
+            <p><a href="https://www.google.co.uk/maps/place/Grameen+Tandoori/@50.187862,-5.422235,15z/data=!4m2!3m1!1s0x0:0xee274b9676a7651c" title="Grameen Tandoori Map">View Map</a>
+          </div>
+
+          <div class="sidebar-module sidebar-module-inset opening-hours">
+            <h4>Opening Hours</h4>
+            <p>Open 7 Days a week including Bank Holidays</p>
+            <p>Lunch - 12.00pm to 2.00pm</p>
+            <p>Evening - 5.30pm to 11.30pm</p>
           </div>
 
           <div class="sidebar-module sidebar-module-inset">

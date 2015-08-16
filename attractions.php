@@ -83,7 +83,7 @@ include './includes/header.php';
           <div class="col-xs-12 col-sm-6 attraction-box">
             <h2>Geevor Tin Mine</h2>
             <p>Geevor tin mine was one of the last working Tin mines in the Uk before closing in 1990.</p>
-            <p>Today the mine opertes as an award winning visitor attraction, allowing guest to get a sense of what life was like for a miner.</p>
+            <p>Today the mine operates as an award winning visitor attraction, allowing guest to get a sense of what life was like for a miner.</p>
             <a class="fancybox" rel="group" href="images/localarea/geevor_tin_mine_large.jpg" title="Geevor Tin Mine by Andrew Bone" >
               <img src="images/localarea/geevor_tin_mine_small.jpg" class="text-center" alt="Geevor Tin Mine">
             </a>

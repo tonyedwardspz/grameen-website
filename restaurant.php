@@ -20,6 +20,7 @@ include './includes/header.php';
 
           <p>The Grameen Tandoori restaurant is situated on Hayle Terrace overlooking Hayle estuary. The unassuming exterior opens up into a wonderful and commentary Indian dining experience.</p>
           <p>The restaurant offers excellent Bangladeshi Tandoori which is prepared by our highly experienced team using only the freshest ingredients and the best spices.</p>
+          <p>The restaurant has disabled facilities</p>
 
           <div class="row">
             <div class="col-xs-12 download-buttons">

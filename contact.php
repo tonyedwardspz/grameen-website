@@ -24,9 +24,8 @@ include './includes/header.php';
 
           <!-- PAGE CONTENT -->
           <div class="blog-post">
-            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-            <hr>
-            <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+            <p>To book a table or to place a takeaway order, please contact us on the phone number below.</p>
+            <h3>01736 758470</h3>
           </div><!-- /.blog-post -->
 
 
