@@ -267,6 +267,10 @@ body.attractions .col-sm-8.attractions-wrapper {
 
 }
 
+.attraction-box img{
+  margin-top: 20px;
+}
+
 
 /* Footer Stuff */
 
