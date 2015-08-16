@@ -11,7 +11,7 @@
 ?>
 
 <div class="col-xs-6 col-md-3">
-  <a class="fancybox" rel="group" href="images/photos/<?php echo $random; ?>.jpg">
+  <a class="fancybox" href="images/photos/<?php echo $random; ?>.jpg">
     <img src="images/photos/<?php echo $random; ?>-tn.jpg" alt="Grameen Tandoori" />
   </a>
 </div>
