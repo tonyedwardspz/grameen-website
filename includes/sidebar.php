@@ -27,7 +27,7 @@
           <div class="sidebar-module sidebar-module-inset">
             <h4>Reviews</h4>
             <ol class="list-unstyled">
-              <li><?php echo getRandomReview($pageName); ?></li>
+              <li><?php echo getRandomReview(); ?></li>
             </ol>
           </div>
 
