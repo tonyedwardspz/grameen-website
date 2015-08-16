@@ -16,11 +16,12 @@ include 'includes/header.php';
         <h1>The Grameen Tandoori Restaurant</h1>
         <div class="row">
           <div id="jumboText" class="col-sm-8">
-            <p>Contempory Indian cuisine,<br/>freshly prepared in the heart of West Cornwall</p>
-            <a class="btn btn-default" href="#" role="button">View details &raquo;</a>
+            <p class="jumbo1">Contemporary Indian cuisine</p>
+            <p class="jumbo2">Freshly prepared in the heart of West Cornwall</p>
+            <a class="btn btn-default" href="contact.php" role="button">Book Now &raquo;</a>
           </div>
           <div class="col-sm-4">
-            <img id="jumboImage" src="images/home_food.jpg" height="266" width="400">
+            <img id="jumboImage" src="images/home_food.jpg" alt="Contemporary Indian Food">
           </div>
 
         </div>
@@ -31,7 +32,7 @@ include 'includes/header.php';
       <div class="row">
 
         <div class="col-xs-6 col-md-4">
-          <h2>Freshly Prepare</h2>
+          <h2>Freshly Prepared</h2>
           <p>Our restaurant is situated on Hayle Terrace overlooking Hayle estuary and offers excellent Bangladeshi Tandoori food as both a sit down meal and takeaway.</p>
           <p>If you know what you would like and wish to book a table or place an order for takeaway, the restaurant can be contacted directly on 01736 758470.</p>
           <a class="btn btn-default" href="#" role="button">View details &raquo;</a>

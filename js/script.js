@@ -4,7 +4,7 @@ $(document).ready(function(){
     applyActiveClass();
     alterTitleText();
     phoneNumberSmallScreen();
-    sizeJumbotron();
+    // sizeJumbotron();
 
     // Plugin calls
 	$('.fancybox').fancybox();
@@ -18,10 +18,10 @@ $(window).resize(function(){
 });
 
 
-var sizeJumbotron = function() {
-    var imageHeight = $('#jumboImage').height();
-    $('#jumboText').height(imageHeight);
-}
+// var sizeJumbotron = function() {
+//     var imageHeight = $('#jumboImage').height();
+//     $('#jumboText').height(imageHeight);
+// }
 
 
 var alterTitleText = function() {
