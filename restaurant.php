@@ -17,9 +17,9 @@ include './includes/header.php';
 
       <div class="row">
         <div class="col-sm-8 blog-main">
-        <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-        <hr>
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+
+          <p>The Grameen Tandoori restaurant is situated on Hayle Terrace overlooking Hayle estuary. The unassuming exterior opens up into a wonderful and commentary Indian dining experience.</p>
+          <p>The restaurant offers excellent Bangladeshi Tandoori which is prepared by our highly experienced team using only the freshest ingredients and the best spices.</p>
 
           <div class="row">
             <div class="col-xs-12 download-buttons">
