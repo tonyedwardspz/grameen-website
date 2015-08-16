@@ -51,7 +51,7 @@ gulp.task('copy', function() {
 gulp.task('connect', function() {
   connect.server({}, function (){
     browserSync({
-      proxy: 'localhost:8000'
+      proxy: 'localhost:8888/grameen'
     });
   });
 
