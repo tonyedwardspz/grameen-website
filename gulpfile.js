@@ -35,6 +35,7 @@ gulp.task('scripts', function() {
 gulp.task('css', function(){
 	return gulp.src(['css/bootstrap.css','css/font-awesome.css','css/style.css', 'js/jquery.fancybox.css'])
     .pipe(concatCss("style.css"))
+    .pipe(minifyCss())
     .pipe(gulp.dest('dist/css'));
 });
 
